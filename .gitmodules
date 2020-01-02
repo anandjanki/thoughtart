@@ -1,0 +1,3 @@
+[submodule "themes/courseware"]
+	path = themes/courseware
+	url = https://github.com/anandjanki/courseware.git
