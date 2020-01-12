@@ -2,3 +2,11 @@ baseURL = "http://www.thoughtart.in/"
 languageCode = "en-us"
 title = "Thought Thou Art"
 theme = "courseware"
+[params]
+  meta_pages_left = ["About"]
+  meta_pages_right = ["Terms", "Follow", "Contact"]
+
+  # (Optional, default none) Set the path to a logo for the site. If the logo is
+  # /static/logo.png then the path would be logo.png
+  SiteLogo = 'logo.png'
+
