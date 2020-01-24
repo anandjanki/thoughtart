@@ -2,6 +2,7 @@ baseURL = "http://www.thoughtart.in/"
 languageCode = "en-us"
 title = "Thought Thou Art"
 theme = "courseware"
+ignoreFiles = [ "\\.pxm$", "\\.mindnode$" ]
 [params]
   meta_pages_left = ["About"]
   meta_pages_right = ["Terms", "Follow", "Contact"]
