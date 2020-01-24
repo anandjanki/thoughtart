@@ -1,7 +1,7 @@
 ---
 title: "Counting with Repetition"
 date: 2020-01-24T18:05:19+05:30
-draft: true
+draft: false
 weight: 2
 ---
 
