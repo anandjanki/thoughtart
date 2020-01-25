@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string></string>
+	<key>comments</key>
+	<string></string>
+	<key>isUsingConstrainedLayout</key>
+	<false/>
+	<key>keywords</key>
+	<string></string>
+	<key>mindMap</key>
+	<dict>
+		<key>associations</key>
+		<array/>
+		<key>color</key>
+		<string>{1.000, 1.000, 1.000, 1.000}</string>
+		<key>mainNodes</key>
+		<array>
+			<dict>
+				<key>contentAlignment</key>
+				<integer>1</integer>
+				<key>fillColor</key>
+				<string>{1.000, 1.000, 1.000, 1.000}</string>
+				<key>isDecreasingBranchThickness</key>
+				<true/>
+				<key>isDrawingFill</key>
+				<true/>
+				<key>isLeftAligned</key>
+				<false/>
+				<key>location</key>
+				<string>{-1593.1953125, 111.21875}</string>
+				<key>nodeID</key>
+				<string>88520D29-2D80-40D6-AE6D-1C519938BEFD</string>
+				<key>strokeColor</key>
+				<string>{0.029, 0.251, 0.502, 1.000}</string>
+				<key>strokeStyle</key>
+				<integer>0</integer>
+				<key>strokeWidth</key>
+				<real>2</real>
+				<key>subnodes</key>
+				<array>
+					<dict>
+						<key>contentAlignment</key>
+						<integer>1</integer>
+						<key>fillColor</key>
+						<string>{1.000, 1.000, 1.000, 1.000}</string>
+						<key>isDecreasingBranchThickness</key>
+						<true/>
+						<key>isDrawingFill</key>
+						<false/>
+						<key>isLeftAligned</key>
+						<false/>
+						<key>location</key>
+						<string>{-1486.86328125, 51.0546875}</string>
+						<key>nodeID</key>
+						<string>B95FA5C6-DD2C-4898-A044-2E35BC21242B</string>
+						<key>strokeColor</key>
+						<string>{0.400, 0.400, 0.400, 1.000}</string>
+						<key>strokeStyle</key>
+						<integer>0</integer>
+						<key>strokeWidth</key>
+						<real>6</real>
+						<key>subnodes</key>
+						<array>
+							<dict>
+								<key>contentAlignment</key>
+								<integer>1</integer>
+								<key>fillColor</key>
+								<string>{1.000, 1.000, 1.000, 1.000}</string>
+								<key>isDecreasingBranchThickness</key>
+								<true/>
+								<key>isDrawingFill</key>
+								<false/>
+								<key>isLeftAligned</key>
+								<false/>
+								<key>location</key>
+								<string>{-1383.56640625, -35.5546875}</string>
+								<key>nodeID</key>
+								<string>FF0AAEC4-42A5-4BB1-93FE-1E2435AB5079</string>
+								<key>strokeColor</key>
+								<string>{0.400, 0.400, 0.400, 1.000}</string>
+								<key>strokeStyle</key>
+								<integer>0</integer>
+								<key>strokeWidth</key>
+								<real>5</real>
+								<key>subnodes</key>
+								<array>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{-1264.4609375, -173.98046875}</string>
+										<key>nodeID</key>
+										<string>F332D2F4-292F-4CB5-9AAD-62BC3219B7AA</string>
+										<key>strokeColor</key>
+										<string>{0.400, 0.400, 0.400, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{-1127.8671875, -351.42578125}</string>
+												<key>nodeID</key>
+												<string>C92C349C-7BF9-4171-96D2-49741B910D3D</string>
+												<key>strokeColor</key>
+												<string>{0.400, 0.400, 0.400, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1-K1&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1-K1}</string>
+												</dict>
+											</dict>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{-1124.48046875, -306.27734375}</string>
+												<key>nodeID</key>
+												<string>D4070339-786F-4F6C-9AEB-FF640B25839F</string>
+												<key>strokeColor</key>
+												<string>{0.400, 0.400, 0.400, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1-K2&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1-K2}</string>
+												</dict>
+											</dict>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{-1126.90234375, -218.859375}</string>
+												<key>nodeID</key>
+												<string>4762AE0D-6338-49C4-9053-BADD3E5C30C9</string>
+												<key>strokeColor</key>
+												<string>{0.400, 0.400, 0.400, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1-K4&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1-K4}</string>
+												</dict>
+											</dict>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{-1129.03515625, -173.98828125}</string>
+												<key>nodeID</key>
+												<string>9F094295-D1CF-4BB5-914F-123CE6B7E063</string>
+												<key>strokeColor</key>
+												<string>{0.400, 0.400, 0.400, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1-K5&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1-K5}</string>
+												</dict>
+											</dict>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{-1124.1640625, -260.96484375}</string>
+												<key>nodeID</key>
+												<string>CFEED0FD-C854-4757-88AE-DBC5DC725066</string>
+												<key>strokeColor</key>
+												<string>{0.400, 0.400, 0.400, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1-K3&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1-K3}</string>
+												</dict>
+											</dict>
+										</array>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C1&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C1}</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{-1263.59765625, -121.84895896911621}</string>
+										<key>nodeID</key>
+										<string>DCC442EA-7723-41A7-9A40-8A687D498B74</string>
+										<key>strokeColor</key>
+										<string>{0.400, 0.400, 0.400, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C2&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-C2}</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{-1262.82421875, -36.072917938232422}</string>
+										<key>nodeID</key>
+										<string>2E225E08-FB62-434A-8898-2A0845CF796C</string>
+										<key>strokeColor</key>
+										<string>{0.400, 0.400, 0.400, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C4&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-\cf2 C4}</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{-1263.62109375, -77.493492126464844}</string>
+										<key>nodeID</key>
+										<string>7A281A79-FE61-4E42-9D34-15C8DEF66D01</string>
+										<key>strokeColor</key>
+										<string>{0.400, 0.400, 0.400, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1-C3&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1-\cf2 C3}</string>
+										</dict>
+									</dict>
+								</array>
+								<key>title</key>
+								<dict>
+									<key>constrainedWidth</key>
+									<integer>300</integer>
+									<key>htmlText</key>
+									<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S1&lt;/p&gt;</string>
+									<key>shrinkToFitContent</key>
+									<integer>1</integer>
+									<key>text</key>
+									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S1}</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>contentAlignment</key>
+								<integer>1</integer>
+								<key>fillColor</key>
+								<string>{1.000, 1.000, 1.000, 1.000}</string>
+								<key>isDecreasingBranchThickness</key>
+								<true/>
+								<key>isDrawingFill</key>
+								<false/>
+								<key>isLeftAligned</key>
+								<false/>
+								<key>location</key>
+								<string>{-1381.015625, 8.17578125}</string>
+								<key>nodeID</key>
+								<string>517B4FB6-8E44-4739-9749-3B7366030919</string>
+								<key>strokeColor</key>
+								<string>{0.400, 0.400, 0.400, 1.000}</string>
+								<key>strokeStyle</key>
+								<integer>0</integer>
+								<key>strokeWidth</key>
+								<real>5</real>
+								<key>subnodes</key>
+								<array/>
+								<key>title</key>
+								<dict>
+									<key>constrainedWidth</key>
+									<integer>300</integer>
+									<key>htmlText</key>
+									<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S2&lt;/p&gt;</string>
+									<key>shrinkToFitContent</key>
+									<integer>1</integer>
+									<key>text</key>
+									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S2}</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>contentAlignment</key>
+								<integer>1</integer>
+								<key>fillColor</key>
+								<string>{1.000, 1.000, 1.000, 1.000}</string>
+								<key>isDecreasingBranchThickness</key>
+								<true/>
+								<key>isDrawingFill</key>
+								<false/>
+								<key>isLeftAligned</key>
+								<false/>
+								<key>location</key>
+								<string>{-1379.9375, 51.6640625}</string>
+								<key>nodeID</key>
+								<string>0872FA4B-34F7-4DD5-863E-4C3314286548</string>
+								<key>strokeColor</key>
+								<string>{0.400, 0.400, 0.400, 1.000}</string>
+								<key>strokeStyle</key>
+								<integer>0</integer>
+								<key>strokeWidth</key>
+								<real>5</real>
+								<key>subnodes</key>
+								<array/>
+								<key>title</key>
+								<dict>
+									<key>constrainedWidth</key>
+									<integer>300</integer>
+									<key>htmlText</key>
+									<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1-S3&lt;/p&gt;</string>
+									<key>shrinkToFitContent</key>
+									<integer>1</integer>
+									<key>text</key>
+									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1-S3}</string>
+								</dict>
+							</dict>
+						</array>
+						<key>title</key>
+						<dict>
+							<key>constrainedWidth</key>
+							<integer>300</integer>
+							<key>htmlText</key>
+							<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W1&lt;/p&gt;</string>
+							<key>shrinkToFitContent</key>
+							<integer>1</integer>
+							<key>text</key>
+							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W1}</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>contentAlignment</key>
+						<integer>1</integer>
+						<key>fillColor</key>
+						<string>{1.000, 1.000, 1.000, 1.000}</string>
+						<key>isDecreasingBranchThickness</key>
+						<true/>
+						<key>isDrawingFill</key>
+						<false/>
+						<key>isLeftAligned</key>
+						<false/>
+						<key>location</key>
+						<string>{-1497.15625, 108.66015625}</string>
+						<key>nodeID</key>
+						<string>7B1C211A-437C-4C1A-B433-5474EBA4DEAE</string>
+						<key>strokeColor</key>
+						<string>{0.400, 0.400, 0.400, 1.000}</string>
+						<key>strokeStyle</key>
+						<integer>0</integer>
+						<key>strokeWidth</key>
+						<real>6</real>
+						<key>subnodes</key>
+						<array/>
+						<key>title</key>
+						<dict>
+							<key>constrainedWidth</key>
+							<integer>300</integer>
+							<key>htmlText</key>
+							<string>&lt;p style='color: rgba(0, 0, 0, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;W2&lt;/p&gt;</string>
+							<key>shrinkToFitContent</key>
+							<integer>1</integer>
+							<key>text</key>
+							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 W2}</string>
+						</dict>
+					</dict>
+				</array>
+				<key>title</key>
+				<dict>
+					<key>constrainedWidth</key>
+					<integer>300</integer>
+					<key>htmlText</key>
+					<string>&lt;p style='color: rgba(7, 63, 128, 1.000000); font: 14px "Zilla Slab"; text-align: left; -cocoa-font-postscriptname: "ZillaSlab-Regular"; '&gt;Author&lt;/p&gt;</string>
+					<key>shrinkToFitContent</key>
+					<integer>1</integer>
+					<key>text</key>
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 ZillaSlab-Regular;}
+{\colortbl;\red255\green255\blue255;\red7\green63\blue128;}
+{\*\expandedcolortbl;;\csgenericrgb\c2745\c24706\c50196;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 Author}</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<key>printInfo</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVjdACFkoSE
+	hBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCUhAFpCJKEhIQITlNT
+	dHJpbmcBlIQBKxZOU0hvcml6b250YWxseUNlbnRlcmVkhpKEhIQITlNOdW1iZXIAhIQH
+	TlNWYWx1ZQCUhAEqhIQBY50BhpKEmZkNTlNSaWdodE1hcmdpboaShJuchIQBZp5IhpKE
+	mZkMTlNMZWZ0TWFyZ2luhpKfkoSZmRVOU0hvcml6b25hbFBhZ2luYXRpb26GkoSbnISX
+	lwKGkoSZmRROU1ZlcnRpY2FsUGFnaW5hdGlvboaShJucpJcAhpKEmZkUTlNWZXJ0aWNh
+	bGx5Q2VudGVyZWSGkpqShJmZC05TVG9wTWFyZ2luhpKEm5ygnlqGkoSZmQ5OU0JvdHRv
+	bU1hcmdpboaSqYaG
+	</data>
+	<key>title</key>
+	<string>Author</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>
