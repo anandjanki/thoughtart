@@ -166,7 +166,7 @@ In other words, what we have found is that if there are \\(n\\) teams participat
 
 Lets look at another example. Suppose there are 6 friends. How many different ways can they pose for a photograph (standing in a straight line facing a camera)?
 
-{{< figure src="friends-cast-v3.jpg" class="figs" title="6 \"friends\" posing for a group photo" >}}
+{{< figure src="friends-cast-v3.jpg" height="200px" class="figs" title="6 \"friends\" posing for a group photo" >}}
 
 We know now from the previous section that this can be done in 6! ways.
 

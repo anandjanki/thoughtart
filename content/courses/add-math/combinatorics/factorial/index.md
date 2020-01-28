@@ -19,7 +19,7 @@ Here is a new version of the St Ives poem:
 
 Counting the number of kittens is similar to before except that the numbers involved here are a little different. The pictorial depiction for counting all the kittens is shown below.
 
-{{< figure src="StIves-factorial.png" class="figs" title="A picture to aid the counting of the kittens" >}}
+{{< figure src="StIves-factorial.png" height="400px" class="figs" title="A picture to aid the counting of the kittens" >}}
 
 And the counting can be done as follows:
 

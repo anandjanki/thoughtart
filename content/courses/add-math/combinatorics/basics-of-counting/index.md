@@ -35,7 +35,7 @@ It is important to notice how we counted the kittens:
 
 A good way to represent this as a picture is below:
 
-{{< figure src="StIves3.png" class="figs" title="A picture to aid the counting of the kittens" >}}
+{{< figure src="StIves3.png" height="400px" class="figs" title="A picture to aid the counting of the kittens" >}}
 
 {{< katex >}}
 {{< /katex >}}
@@ -116,7 +116,7 @@ Stated differently - if there are 3 ways to choose a base **and** 5 ways to choo
 
 Let's take another example. Suppose we board the school bus at Stop A, and the bus takes a route through Stop B to get to the school. Further suppose that there are 5 different ways to get from Stop A to Stop B, and 3 different ways to get from Stop B to the school. This is depicted in the picture below. The question we are asking is how many different ways are there to reach school from Stop A.
 
-{{< figure src="Routes-A-B-C-v3.png" class="figs" title="Different ways to reach school starting from Stop A, and going through Stop B" >}}
+{{< figure src="Routes-A-B-C-v3.png" height="200px" class="figs" title="Different ways to reach school starting from Stop A, and going through Stop B" >}}
 
 We could name the 5 routes between Stop A and Stop B as say AB1, AB2, ... AB5, and the routes between Stop B and Stop C as say BC1, BC2 and BC3. On the first day, we can take route AB1 from A to B, and route BC1 from B to C. On the second day, we could take AB1 again from A to B, but this time take route BC2 from B to C. If we do this systematically, the different possibilities will look as follows:
 
@@ -157,7 +157,7 @@ As before - if there are 5 ways to choose a path from A to B **and** 3 ways to c
 
 We can take this idea a step further. Suppose a boy's wardrobe looks like below - 5 different kinds of shirts, 3 different kinds of pants and 2 different kinds of shoes. How many different ways can he dress up to school?
 
-{{< figure src="shirts-pants-shoes.png" class="figs" title="Wardrobe of a boy with different choices to wear" >}}
+{{< figure src="shirts-pants-shoes.png" height="300px" class="figs" title="Wardrobe of a boy with different choices to wear" >}}
 
 The same rule applies - if there are 5 different ways to choose the shirt to wear **and** 3 different ways to choose a pant **and** 2 different ways to choose a shoe, then there are exactly **5 x 3 x 2** or 30 different ways to dress up to school.
 
@@ -242,7 +242,7 @@ What if we are faced with a situation where some of the actions have to be done 
 
 Let's revisit the path counting problem, except that we have some new developments to deal with. It turns out there are other alternative ways to get to the school from Stop A. This is depicted in the picture below.
 
-{{< figure src="Routes-A-BD-C.png" class="figs" title="Different ways to reach school starting from Stop A, and going through Stop B or going through Stop D" >}}
+{{< figure src="Routes-A-BD-C.png" height="200px" class="figs" title="Different ways to reach school starting from Stop A, and going through Stop B or going through Stop D" >}}
 
 We had already calculated the number of ways of reaching school through Stop B before, that is 5 x 3 ways. The presence of Stop D provide alternative routes to reach the school. The bus can either go from A to B to C, **or** it can go from A to D to C. The number of ways to reach school from A, going via D should be easy to calculate - it is 2 x 1 ways (since there are 2 ways to reach from A to D, and 1 way to reach from D to school). So, the total number of ways to reach school in this new scenario works out to be **5 x 3 + 2 x 1**, or exactly 17 ways. 
 

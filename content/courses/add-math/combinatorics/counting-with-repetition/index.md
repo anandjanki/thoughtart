@@ -13,7 +13,7 @@ Let's start with the total numbers that are there between 1 and 1000 (both inclu
 
 Now lets consider this same counting problem in a different scenario. Let's say we have a suitcase with a 3-digit combination lock. A picture is below:
 
-{{< figure src="briefcase-combination-v5.jpg" class="figs" title="Briefcase with a combination lock having 3 digits" >}}
+{{< figure src="briefcase-combination-v5.jpg" height="200px" class="figs" title="Briefcase with a combination lock having 3 digits" >}}
 
 The question we are asking is how many different ways are there to set a 3-digit code for this combination lock. Yet another way to ask the question is what is the maximum number of codes one would need to try in order to crack the combination.
 
@@ -36,7 +36,7 @@ We know that there are 5 odd digits obviosuly - 1, 3, 5, 7, and 9. The first dig
 
 As in the case of the St Ives [kittens counting]({{< ref "basics-of-counting#kittens-galore" >}}) exercise, we can write out these odd-looking codes systematically as follows:
 
-{{< figure src="odd-looking-combinations.png" class="figs" title="Counting odd-looking codes" >}}
+{{< figure src="odd-looking-combinations.png" height="400px" class="figs" title="Counting odd-looking codes" >}}
 
 Shown in figure above are 5 codes - 1111, 1113, 1115, 1117, and 1119 and a way to systematically enumerate out all of the \\(5^4\\) or 625 codes (should someone really want to do that :).
 
@@ -127,7 +127,7 @@ Hence the total number of ways we can select the Captain and the Vice-Captain is
 ### Make your own flag
 There are 10 strips of cloth each of a different color. A flag is made by putting together 3 strips of different colors one below the other. How many different flags can be made?
 
-{{< figure src="flags-from-strips-v4.png" class="figs" title="Flags created without repeating colors" >}}
+{{< figure src="flags-from-strips-v4.png" height="150px" class="figs" title="Flags created without repeating colors" >}}
 
 The key thing to note is that each flag needs to be made by putting together 3 strips of *different* colors. In other words, once a color strip is chosen to make a flag, we cannot repeat the same color strip. How many flags can be made thus without repeating a color?
 
@@ -139,7 +139,7 @@ So, the number of flags possible is 10 x 9 x 8 = 720.
 
 Now, let's say that we allow for colors to be repeated. That means we are fine if the same color cloth is repeated twice or even thrice. In this scenario, we allow for flags as depicted in the bottom row below as well.
 
-{{< figure src="flags-from-strips-v5.png" class="figs" title="Creating Flags allowing for repeating colors" >}}
+{{< figure src="flags-from-strips-v5.png" height="150px" class="figs" title="Creating Flags allowing for repeating colors" >}}
 
 How many different flags can be made in this scenario? As before, the first color can be chosen in 10 different ways. But now, the choice for the second color is not restricted since we allow for repetitions. So, the second color can also be chosen in 10 different ways, and likewise, the third color can also be chosen in 10 ways. 
 
@@ -163,11 +163,11 @@ Rooks on a chessboard (also called elephant, tower, castle, etc and start from t
 
 The first rook can be placed anywhere on the board without any constraints, one such position is depicted below:
 
-{{< figure src="first-rook.png" width="60%" class="figs" title="First rook placed on b4" >}}
+{{< figure src="first-rook.png" height="300px" class="figs" title="First rook placed on b4" >}}
 
 This problem requires that they should not be able to attack each other. So, once the first rook is placed, this problem inherently poses constraints on the placement of the second rook. Since rooks can only travel horizontally or vertically, the second rook cannot be placed anywhere on "column-b" or on "row-4". It is OK to place the second rook in any position other than these squares, as depicted below:
 
-{{< figure src="second-rook.png" width="60%" class="figs" title="Second rook can be placed anywhere other than column-b or row-4" >}}
+{{< figure src="second-rook.png" height="300px" class="figs" title="Second rook can be placed anywhere other than column-b or row-4" >}}
 
 The number of ways in which the first rook can be placed is 64. Once the first rook is placed, there are a total of 7 + 7 + 1 = 15 places that become unavailable to the second rook. So, the number of ways in which we can place the second rook is 49.
 
