@@ -1,7 +1,7 @@
 ---
 title: "Factorial"
 date: 2020-01-25T01:26:59+05:30
-draft: true
+draft: false
 weight: 3
 ---
 
@@ -91,6 +91,18 @@ For example, lets see how this works for 5!.
 
 We finally arrived at the same answer for 5!, as we could have got by multiplying 5 x 4 x 3 x 2 x 1, but the nice thing about this approach is that in the process we have also found the values of 4!, 3!, and all factorials lesser than the number we start with.
 
-### Factorials are large - TBD
+### Factorials are large
 
-Factorials are fairly large numbers. Compare \\(n, n^2, n^3 \\) with \\( 2^n, 3^n, 4^n \\) and \\( n! \\), for say \\( n = 1, 2, ..., 10 \\)
+Factorials are fairly large numbers. They become large quickly, much faster than power terms (such as \\(n^2\\)) or even exponential terms (such as \\(2^n\\)). The table below compares \\(n, n^2, n^3 \\) with \\( 2^n, 3^n, 4^n \\) and \\( n! \\), for say \\( n = 1, 2, ..., 10 \\) and \\(20\\).
+
+| n	| ---> 	| 1	| 2	| 3	| 4	| 5	| 6	| 7	| 8	| 9	| 10	| ...	| 20    |
+| ---:  | ---: 	|---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  | ---:  |
+| \\(n^2\\) |   	|1	| 4	| 9	| 16	| 25	| 36	| 49	| 64	| 81	| 100	| 	| 400 |
+| \\(n^3\\) 	|   	| 1	| 8	| 27	| 64	| 125	| 216	| 343	| 512	| 729	| 1,000	| 	| 8,000 |
+| \\(2^n\\) 	|  	| 2	| 4	| 8	| 16	| 32	| 64	| 128	| 256	| 512	| 1,024	| 	| 1,048,576 |
+| \\(3^n\\) 	|  	| 3	| 9	| 27	| 81	| 243	| 729	| 2,187	| 6,561	| 19,683	| 59,049	| 	| 3,486,784,401 |
+| \\(4^n\\) 	|  	| 4	| 16	| 64	| 256	| 1,024	| 4,096	| 16,384	| 65,536	| 262,144	| 1,048,576	| 	| 1,099,511,627,776 |
+| \\(n!	\\) |  	| 1	| 2	| 6	| 24	| 120	| 720	| 5,040	| 40,320	| 362,880	| 3,628,800	| 	| 2,432,902,008,176,640,000 |
+
+
+
