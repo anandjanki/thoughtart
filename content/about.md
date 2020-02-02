@@ -2,7 +2,7 @@
 title: About
 ---
 
-We are a small group of education enthusiasts. We believe that education should be freely and widely available. We like to see advanced Math and Science and such topics explained in simple ways so that larger and larger audience can enjoy the beauty of the discoveries in these areas. That may well be the solution to many of the social, political, religious ills that we face.
+We are a small group of education enthusiasts. We believe that education should be freely and widely available. We like to see Math and Science and such topics explained in simple ways so that larger and larger audience can enjoy the beauty of the discoveries in these areas. The same holds true with the inventions in the areas of Engineering and Technology, although with sufficient care. Together, we would like to see *STEM* take greater roots in the mindshare of young ones. That may well be the solution to many of the social, political, religious ills that we face.
 
 The name of this site comes from a conviction in logic. We think that if logic and reason were to drive day-to-day actions of humans, and the interactions between humans, we would have a different world altogether. 
 
