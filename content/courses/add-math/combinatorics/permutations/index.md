@@ -189,7 +189,7 @@ Can you try out all possible ways to queue up in one lunch session?
 
 Well, the total number of ways as we now know is 20! ways.
 
-That is a very large number as we saw in the [last session]({{< ref "factorial/#factorials-are-large" >}}), that is - 2,432,902,008,176,640,000 - or about 2.5Quntillion ways with a small class of just 20.
+That is a very large number as we saw in the [last session]({{< ref "factorial#factorials-are-large" >}}), that is - 2,432,902,008,176,640,000 - or about 2.5Quntillion ways with a small class of just 20.
 
 ## Arranging r-items out of n
 
