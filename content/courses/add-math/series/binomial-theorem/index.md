@@ -19,13 +19,10 @@ In pioneering research conducted by psychologist Karen Wynn in 1990s, she report
 
 It turns out that not just humans, but also other species such as primates and elephants were also able to show a limited ability to add.
 
-{{< columns >}}
-<--->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H2gRLCZSBEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<--->
-{{< /columns >}}
+{{< youtube id="H2gRLCZSBEA" >}}
 
 It should not come as much of a surprise, for a cheetah mother would likely need to be able to count to make sure all her cubs are with her, and a pack of hyenas would likely need to size up a group of bisons before attacking them.
+
 
 Humans of course have taken addition a long way since, having written down the rules of how to add not just natural numbers, but also positive and negative integers, rational numbers, irrational numbers, and even other objects such as functions and matrices.
 
@@ -44,7 +41,7 @@ As in the case of addition, we have written down the rules of how to multiply no
 **Commutative Rule**: For real numbers (and we will learn later for complex numbers as well), that the order of multiplication does not matter. i.e.
 $$ a\cdot b = b\cdot a $$
 
-Addition of real numbers is also commutative, but as we know very well, subtraction of real numbers is *not* commutative, since \\( a - b \ne b - a \\). We will learn in advanced mathematics that we can define rules for multiplying objects called matrices, but matrix multiplication is not commutative, i.e. for two matrices \\(A\\) and \\(B\\), \\( A\cdot B \ne B\cdot A \\).
+Addition of real numbers is also commutative, but as we know very well, subtraction of real numbers is *not* commutative, since \\( a - b \ne b - a \\). Neither is division, \\( a \div b \ne b \div a \\).
 
 In other words, based on the nature of the operands involved a particular operation may or may not be commutative.
 
@@ -67,7 +64,7 @@ $$ (b + c)\cdot a = b\cdot a + c\cdot a $$
 And since multiplication of real numbers is commutative, we can say that:
 $$ a\cdot (b + c) = a\cdot b + a\cdot c = b\cdot a + c\cdot a = (b + c)\cdot a $$
 
-As before, whether distributive laws apply or not depends on the nature of the operations as well as the operands. For e.g., it is worth taking a pause and noting that:
+As before, whether distributive laws apply or not depends on the nature of the operation as well as the operands involved. For e.g., it is worth taking a pause and noting that:
 $$ (b + c) \div a = b\div a + c\div a $$
 But,  
 $$ a\div (b + c) \ne a\div b + a\div c $$
@@ -87,18 +84,18 @@ For \\(m = 1\\), it is very simple, of course:
 $$ (a + b)^1 = a + b $$
 there are obviously 2 terms.
 
-For \\(m = 2\\), we probably know the formula for \\( (a + b)^2 \\) from earlier classes, but lets do it from scratch and check:
+For \\(m = 2\\), we probably know the formula for \\( (a + b)^2 \\) from middle school, but lets do it from scratch and check:
 {{< katex >}}
 \begin{array}{rcl}
 (a + b)^2 & = & (a + b)\cdot (a + b) \\
 & = & a\cdot (a + b) + b\cdot (a + b) \\
 & & \text{(We can do this because a and b are real and} \\
-& & \text{multiplication is right distributive over addition)} \\
+& & \text{multiplication is left distributive over addition)} \\
 \therefore (a + b)^2 & = & a\cdot a + a\cdot b + b\cdot a + b\cdot b \\
 \end{array}
 {{< /katex >}}
 Thus \\((a + b)^2 \\) has 4 terms.  
-(Note that we are not applying the commutative property of multiplication and simplifying \\( a\cdot b + b\cdot a = 2ab \\) yet.)
+(Note that we are not applying the commutative property of multiplication and simplifying \\( a\cdot b + b\cdot a = 2ab \\), at least not yet.)
 
 For \\(m = 3\\), lets do the expansion from scratch and check it out:
 {{< katex >}}
@@ -123,7 +120,7 @@ We can see from the above expansion of \\( (a + b)^3 \\) that each term in the e
 
 For e.g. four example terms in the expansion are \\( a\cdot a\cdot a\\), \\(a \cdot a\cdot b\\), \\(b \cdot b\cdot a\\) and \\(b \cdot b\cdot b\\). We can rewrite each of these terms now using the commutative rule of multiplication and the definition of exponentiation as follows - \\(a^3\\), \\(a^2b\\), \\(ab^2\\) and \\(b^3\\) respectively.
 
-Similarly, four example terms in the expansion of \\( (a + b)^{10} \\) are \\( a^{10}\\), \\(a^6b^4\\), \\(a^2b^8\\) and \\(b^{10}\\). Crucially, we can note that the power of \\(a\\) and the power of \\(b\\) in each term of the expansion add up to \\(10\\).
+Similarly, some example terms in the expansion of \\( (a + b)^{10} \\) are \\( a^{10}\\), \\(a^6b^4\\), \\(a^2b^8\\) and \\(b^{10}\\). Crucially, we can note that the power of \\(a\\) and the power of \\(b\\) in each term of the expansion add up to \\(10\\).
 
 Thus, each term in the expansion of \\( (a + b)^m \\) can be written as:
 $$ a^k\cdot b^{m - k} $$
@@ -139,9 +136,9 @@ We can check and confirm for small values of m:
 
 As before, for \\(m = 1\\), it is very simple, of course:
 $$ (a + b)^1 = a + b $$
-there are obviously 2 terms.
+there are obviously 2 terms, both of them are unique.
 
-For \\(m = 2\\), we can now combine the same terms together as follows:
+For \\(m = 2\\), we can now combine the same terms together to get:
 {{< katex >}}
 \begin{array}{rcl}
 (a + b)^2 & = & (a + b)\cdot (a + b) \\
@@ -204,6 +201,12 @@ $$ ^mC_k $$
 
 We have now understood all that we need to write out the general form of the Binomial Theorem:
 
+- there are \\( m + 1\\) terms in the expansion
+- the k-th term in the expansion is \\( a^k b^{m - k} \\)
+- the coefficient of the k-th term in the expansion is \\( {}^mC_k \\)
+
+Thus,
+
 {{< katex >}}
 (a + b)^m = {}^mC_0 a^m b^0 + {}^mC_1 a^{m-1} b^1 + {}^mC_2 a^{m-2} b^2 + \cdots + {}^mC_{m - 2} a^2 b^{m-1} + {}^mC_{m-1} a^1 b^{m-1} + {}^mC_m a^0 b^m
 {{< /katex >}}
@@ -226,8 +229,8 @@ The fact that we have \\( (a - b) \\) does not limit us from applying the Binomi
 
 {{< katex >}}
 \begin{array}{rcl}
-(1 + \sqrt{2})^3 & = & {}^3C_0 1^3 {\sqrt{2}}^0 + {}^3C_1 1^2 {\sqrt{2}}^1 + {}^3C_2 1^1 {\sqrt{2}}^2 + {}^3C_3 1^0 {\sqrt{2}}^3\\
-& = & 1 + 3{\sqrt{2}} + 3{\sqrt{2}}^2 + {\sqrt{2}}^3 \\
+(1 + \sqrt{2})^3 & = & {}^3C_0 1^3 (\sqrt{2})^0 + {}^3C_1 1^2 (\sqrt{2})^1 + {}^3C_2 1^1 (\sqrt{2})^2 + {}^3C_3 1^0 (\sqrt{2})^3\\
+& = & 1 + 3{\sqrt{2}} + 3(\sqrt{2})^2 + (\sqrt{2})^3 \\
 & = & 1 + 3{\sqrt{2}} + 6 + 2{\sqrt{2}} \\
 & = & 7 + 5{\sqrt{2}} \\
 \end{array}
@@ -247,7 +250,7 @@ Note that the two terms in the Binomial Theorem can be any real numbers or even 
 
 ### A visualization
 
-A beautiful geometric visualization of the Binomial Theorem up to index 4 is shown below:
+A beautiful geometric visualization of the Binomial Theorem up to index 3 is shown below:
 
 {{< figure src="images/binomial-geometric.png" class="figs" title="" >}}
 
@@ -255,7 +258,7 @@ A beautiful geometric visualization of the Binomial Theorem up to index 4 is sho
 
 ### Recursive expansion
 
-In some of the above examples we found the expansion of \\( (a + b)^4 \\). 
+In the examples above, we found the expansion of \\( (a + b)^4 \\), reproduced below.
 $$ (a + b)^4 = 1\cdot a^4 + 4\cdot a^3b + 6\cdot a^2b^2 + 4\cdot ab^3 + 1\cdot b^4 $$
 
 Lets see if we can easily find the expansion for \\( (a + b)^5 \\) using the above.
@@ -287,7 +290,7 @@ We already know that \\( (a + b)^4 \\) has 5 terms in the expansion and \\( (a +
 \end{array}
 {{< /katex >}}
 
-In words, the coefficient of \\( a^4b\\) in the expansion of \\( (a + b)^5 \\) is the sum of the coefficients of \\( a^4\\) and \\( a^3b \\) in the expansion of \\( (a + b)^4 \\).
+In words, the coefficient of \\( a^4b\\) in the expansion of \\( (a + b)^5 \\) is the sum of the coefficients of \\( a^4\\) and \\( a^3b \\) in the expansion of \\( (a + b)^4 \\), the coefficient of \\(a^3b^2\\) in the expansion of \\( (a + b)^5 \\) is the sum of the coefficients of \\( a^3b\\) and \\( a^2b^2\\) in the expansion of \\( (a + b)^4 \\), and so on.
 
 ### Another nCr property
 
@@ -347,11 +350,7 @@ A picture from an [archived library manuscript](https://archive.org/details/Prak
 
 The Pascal's triangle has innumerable interesting properties. Some of them are highlighted in this video. Some of them are so fascinating, they are bound to blow your mind off 😎😎 .
 
-{{< columns >}}
-<--->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0iMtlus-afo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<--->
-{{< /columns >}}
+{{< youtube id="0iMtlus-afo" >}}
 
 ### Sierpinski triangle
 
