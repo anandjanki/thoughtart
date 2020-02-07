@@ -1,7 +1,7 @@
 ---
 title: "EC Math"
 date: 2020-02-03T18:51:06+05:30
-draft: true
+draft: false
 ---
 
 Extra-curricular and Mathematics don’t often go hand in hand, but a series of sessions on Mathematics topics that are not generally part of regular school curriculum could be called that! 

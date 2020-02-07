@@ -1,7 +1,7 @@
 ---
 title: "1.1 Greatest Common Divisor"
 date: 2020-02-03T19:40:47+05:30
-draft: true
+draft: false
 weight: 1
 custom_css: ["css/foo.css"]
 ---
