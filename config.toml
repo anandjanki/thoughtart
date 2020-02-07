@@ -11,3 +11,5 @@ ignoreFiles = [ "\\.pxm$", "\\.mindnode$", "raw" ]
   # /static/logo.png then the path would be logo.png
   SiteLogo = 'logo.png'
 
+  custom_css = ["css/bar.css"]
+
