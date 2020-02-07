@@ -1,7 +1,7 @@
 ---
-title: "12. Series - TBD"
+title: "12. Series"
 date: 2020-01-22T20:58:32+05:30
-draft: true
+draft: false
 weight: 12
 ---
 

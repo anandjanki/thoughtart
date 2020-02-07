@@ -1,0 +1,2784 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ """ To recover the Python script to generate this SVG, delete the line above -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-1604 -60 3208 2807">
+ <title>Sierpinski Pascal triangle</title>
+ <desc>A level-4 Sierpinski triangle obtained by shading the first 32 levels of a Pascal triangle white if the binomial coefficient is even and black otherwise by CMG Lee. For comparison, the colour of the outline of its background is green, yellow or purple for the coefficient modulo 3 being 0, 1 or 2, respectively. The text is black, white, red or yellow for the coefficient modulo 4 being 0, 1, 2 or 3, respectively. In the SVG, hover over a number to see its values more clearly.</desc>
+ <style type="text/css">
+  #main { font-family:Helvetica,Arial,sans-serif; font-size:40px; text-anchor:middle;
+          stroke-width:2; stroke:none; fill:#000000; }
+  .mod2_0 { fill:#ffffff; }
+  .mod2_1 { fill:#000000; }
+  .mod3_0 { stroke:#009900; }
+  .mod3_1 { stroke:#0000ff; }
+  .mod3_2 { stroke:#ff00ff; }
+  .mod4_0 { fill:#000000; }
+  .mod4_1 { fill:#ffffff; }
+  .mod4_2 { fill:#cc0000; }
+  .mod4_3 { fill:#ffff00; }
+  text    { cursor:default; }
+ </style>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g id="main">
+<!-- BEGIN_DYNAMIC_SVG { -->
+  <g transform="translate(0,0)">
+   <g transform="translate(0,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(0, 0) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,87)">
+   <g transform="translate(-50,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(1, 0) = 1</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(1, 1) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,173)">
+   <g transform="translate(-100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(2, 0) = 1</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="90"><tspan>2</tspan></text>
+    <title>C(2, 1) = 2</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(2, 2) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,260)">
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(3, 0) = 1</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="90"><tspan>3</tspan></text>
+    <title>C(3, 1) = 3</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="90"><tspan>3</tspan></text>
+    <title>C(3, 2) = 3</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(3, 3) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,346)">
+   <g transform="translate(-200,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(4, 0) = 1</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="90"><tspan>4</tspan></text>
+    <title>C(4, 1) = 4</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="90"><tspan>6</tspan></text>
+    <title>C(4, 2) = 6</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="90"><tspan>4</tspan></text>
+    <title>C(4, 3) = 4</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(4, 4) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,433)">
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(5, 0) = 1</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>5</tspan></text>
+    <title>C(5, 1) = 5</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>10</tspan></text>
+    <title>C(5, 2) = 10</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>10</tspan></text>
+    <title>C(5, 3) = 10</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>5</tspan></text>
+    <title>C(5, 4) = 5</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(5, 5) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,520)">
+   <g transform="translate(-300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(6, 0) = 1</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="90"><tspan>6</tspan></text>
+    <title>C(6, 1) = 6</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>15</tspan></text>
+    <title>C(6, 2) = 15</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>20</tspan></text>
+    <title>C(6, 3) = 20</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>15</tspan></text>
+    <title>C(6, 4) = 15</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="90"><tspan>6</tspan></text>
+    <title>C(6, 5) = 6</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(6, 6) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,606)">
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(7, 0) = 1</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="90"><tspan>7</tspan></text>
+    <title>C(7, 1) = 7</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>21</tspan></text>
+    <title>C(7, 2) = 21</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>35</tspan></text>
+    <title>C(7, 3) = 35</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>35</tspan></text>
+    <title>C(7, 4) = 35</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>21</tspan></text>
+    <title>C(7, 5) = 21</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="90"><tspan>7</tspan></text>
+    <title>C(7, 6) = 7</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(7, 7) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,693)">
+   <g transform="translate(-400,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(8, 0) = 1</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="90"><tspan>8</tspan></text>
+    <title>C(8, 1) = 8</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>28</tspan></text>
+    <title>C(8, 2) = 28</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>56</tspan></text>
+    <title>C(8, 3) = 56</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>70</tspan></text>
+    <title>C(8, 4) = 70</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>56</tspan></text>
+    <title>C(8, 5) = 56</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>28</tspan></text>
+    <title>C(8, 6) = 28</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="90"><tspan>8</tspan></text>
+    <title>C(8, 7) = 8</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(8, 8) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,779)">
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(9, 0) = 1</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>9</tspan></text>
+    <title>C(9, 1) = 9</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>36</tspan></text>
+    <title>C(9, 2) = 36</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>84</tspan></text>
+    <title>C(9, 3) = 84</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>126</tspan></text>
+    <title>C(9, 4) = 126</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>126</tspan></text>
+    <title>C(9, 5) = 126</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>84</tspan></text>
+    <title>C(9, 6) = 84</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>36</tspan></text>
+    <title>C(9, 7) = 36</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>9</tspan></text>
+    <title>C(9, 8) = 9</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(9, 9) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,866)">
+   <g transform="translate(-500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(10, 0) = 1</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>10</tspan></text>
+    <title>C(10, 1) = 10</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>45</tspan></text>
+    <title>C(10, 2) = 45</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>120</tspan></text>
+    <title>C(10, 3) = 120</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>210</tspan></text>
+    <title>C(10, 4) = 210</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>252</tspan></text>
+    <title>C(10, 5) = 252</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>210</tspan></text>
+    <title>C(10, 6) = 210</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>120</tspan></text>
+    <title>C(10, 7) = 120</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>45</tspan></text>
+    <title>C(10, 8) = 45</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>10</tspan></text>
+    <title>C(10, 9) = 10</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(10, 10) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,953)">
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(11, 0) = 1</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>11</tspan></text>
+    <title>C(11, 1) = 11</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>55</tspan></text>
+    <title>C(11, 2) = 55</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>165</tspan></text>
+    <title>C(11, 3) = 165</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>330</tspan></text>
+    <title>C(11, 4) = 330</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>462</tspan></text>
+    <title>C(11, 5) = 462</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>462</tspan></text>
+    <title>C(11, 6) = 462</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>330</tspan></text>
+    <title>C(11, 7) = 330</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>165</tspan></text>
+    <title>C(11, 8) = 165</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>55</tspan></text>
+    <title>C(11, 9) = 55</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>11</tspan></text>
+    <title>C(11, 10) = 11</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(11, 11) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1039)">
+   <g transform="translate(-600,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(12, 0) = 1</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>12</tspan></text>
+    <title>C(12, 1) = 12</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>66</tspan></text>
+    <title>C(12, 2) = 66</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>220</tspan></text>
+    <title>C(12, 3) = 220</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>495</tspan></text>
+    <title>C(12, 4) = 495</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>792</tspan></text>
+    <title>C(12, 5) = 792</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>924</tspan></text>
+    <title>C(12, 6) = 924</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>792</tspan></text>
+    <title>C(12, 7) = 792</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>495</tspan></text>
+    <title>C(12, 8) = 495</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>220</tspan></text>
+    <title>C(12, 9) = 220</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>66</tspan></text>
+    <title>C(12, 10) = 66</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>12</tspan></text>
+    <title>C(12, 11) = 12</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(12, 12) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1126)">
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(13, 0) = 1</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>13</tspan></text>
+    <title>C(13, 1) = 13</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>78</tspan></text>
+    <title>C(13, 2) = 78</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>286</tspan></text>
+    <title>C(13, 3) = 286</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>715</tspan></text>
+    <title>C(13, 4) = 715</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">287</tspan></text>
+    <title>C(13, 5) = 1,287</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">716</tspan></text>
+    <title>C(13, 6) = 1,716</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">716</tspan></text>
+    <title>C(13, 7) = 1,716</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">287</tspan></text>
+    <title>C(13, 8) = 1,287</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>715</tspan></text>
+    <title>C(13, 9) = 715</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>286</tspan></text>
+    <title>C(13, 10) = 286</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>78</tspan></text>
+    <title>C(13, 11) = 78</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>13</tspan></text>
+    <title>C(13, 12) = 13</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(13, 13) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1212)">
+   <g transform="translate(-700,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(14, 0) = 1</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>14</tspan></text>
+    <title>C(14, 1) = 14</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>91</tspan></text>
+    <title>C(14, 2) = 91</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>364</tspan></text>
+    <title>C(14, 3) = 364</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">001</tspan></text>
+    <title>C(14, 4) = 1,001</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">002</tspan></text>
+    <title>C(14, 5) = 2,002</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">003</tspan></text>
+    <title>C(14, 6) = 3,003</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">432</tspan></text>
+    <title>C(14, 7) = 3,432</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">003</tspan></text>
+    <title>C(14, 8) = 3,003</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">002</tspan></text>
+    <title>C(14, 9) = 2,002</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">001</tspan></text>
+    <title>C(14, 10) = 1,001</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>364</tspan></text>
+    <title>C(14, 11) = 364</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>91</tspan></text>
+    <title>C(14, 12) = 91</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>14</tspan></text>
+    <title>C(14, 13) = 14</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(14, 14) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1299)">
+   <g transform="translate(-750,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(15, 0) = 1</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>15</tspan></text>
+    <title>C(15, 1) = 15</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>105</tspan></text>
+    <title>C(15, 2) = 105</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>455</tspan></text>
+    <title>C(15, 3) = 455</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">365</tspan></text>
+    <title>C(15, 4) = 1,365</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">003</tspan></text>
+    <title>C(15, 5) = 3,003</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>5,</tspan><tspan x="0" dy="0.9em">005</tspan></text>
+    <title>C(15, 6) = 5,005</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>6,</tspan><tspan x="0" dy="0.9em">435</tspan></text>
+    <title>C(15, 7) = 6,435</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>6,</tspan><tspan x="0" dy="0.9em">435</tspan></text>
+    <title>C(15, 8) = 6,435</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>5,</tspan><tspan x="0" dy="0.9em">005</tspan></text>
+    <title>C(15, 9) = 5,005</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">003</tspan></text>
+    <title>C(15, 10) = 3,003</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">365</tspan></text>
+    <title>C(15, 11) = 1,365</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>455</tspan></text>
+    <title>C(15, 12) = 455</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>105</tspan></text>
+    <title>C(15, 13) = 105</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>15</tspan></text>
+    <title>C(15, 14) = 15</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(15, 15) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1386)">
+   <g transform="translate(-800,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(16, 0) = 1</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>16</tspan></text>
+    <title>C(16, 1) = 16</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>120</tspan></text>
+    <title>C(16, 2) = 120</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>560</tspan></text>
+    <title>C(16, 3) = 560</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">820</tspan></text>
+    <title>C(16, 4) = 1,820</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">368</tspan></text>
+    <title>C(16, 5) = 4,368</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">008</tspan></text>
+    <title>C(16, 6) = 8,008</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>11,</tspan><tspan x="0" dy="0.9em">440</tspan></text>
+    <title>C(16, 7) = 11,440</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>12,</tspan><tspan x="0" dy="0.9em">870</tspan></text>
+    <title>C(16, 8) = 12,870</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>11,</tspan><tspan x="0" dy="0.9em">440</tspan></text>
+    <title>C(16, 9) = 11,440</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">008</tspan></text>
+    <title>C(16, 10) = 8,008</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">368</tspan></text>
+    <title>C(16, 11) = 4,368</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">820</tspan></text>
+    <title>C(16, 12) = 1,820</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>560</tspan></text>
+    <title>C(16, 13) = 560</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>120</tspan></text>
+    <title>C(16, 14) = 120</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>16</tspan></text>
+    <title>C(16, 15) = 16</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(16, 16) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1472)">
+   <g transform="translate(-850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(17, 0) = 1</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>17</tspan></text>
+    <title>C(17, 1) = 17</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>136</tspan></text>
+    <title>C(17, 2) = 136</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>680</tspan></text>
+    <title>C(17, 3) = 680</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">380</tspan></text>
+    <title>C(17, 4) = 2,380</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>6,</tspan><tspan x="0" dy="0.9em">188</tspan></text>
+    <title>C(17, 5) = 6,188</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>12,</tspan><tspan x="0" dy="0.9em">376</tspan></text>
+    <title>C(17, 6) = 12,376</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>19,</tspan><tspan x="0" dy="0.9em">448</tspan></text>
+    <title>C(17, 7) = 19,448</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>24,</tspan><tspan x="0" dy="0.9em">310</tspan></text>
+    <title>C(17, 8) = 24,310</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>24,</tspan><tspan x="0" dy="0.9em">310</tspan></text>
+    <title>C(17, 9) = 24,310</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>19,</tspan><tspan x="0" dy="0.9em">448</tspan></text>
+    <title>C(17, 10) = 19,448</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>12,</tspan><tspan x="0" dy="0.9em">376</tspan></text>
+    <title>C(17, 11) = 12,376</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>6,</tspan><tspan x="0" dy="0.9em">188</tspan></text>
+    <title>C(17, 12) = 6,188</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">380</tspan></text>
+    <title>C(17, 13) = 2,380</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>680</tspan></text>
+    <title>C(17, 14) = 680</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>136</tspan></text>
+    <title>C(17, 15) = 136</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>17</tspan></text>
+    <title>C(17, 16) = 17</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(17, 17) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1559)">
+   <g transform="translate(-900,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(18, 0) = 1</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>18</tspan></text>
+    <title>C(18, 1) = 18</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>153</tspan></text>
+    <title>C(18, 2) = 153</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>816</tspan></text>
+    <title>C(18, 3) = 816</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">060</tspan></text>
+    <title>C(18, 4) = 3,060</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">568</tspan></text>
+    <title>C(18, 5) = 8,568</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>18,</tspan><tspan x="0" dy="0.9em">564</tspan></text>
+    <title>C(18, 6) = 18,564</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>31,</tspan><tspan x="0" dy="0.9em">824</tspan></text>
+    <title>C(18, 7) = 31,824</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>43,</tspan><tspan x="0" dy="0.9em">758</tspan></text>
+    <title>C(18, 8) = 43,758</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>48,</tspan><tspan x="0" dy="0.9em">620</tspan></text>
+    <title>C(18, 9) = 48,620</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>43,</tspan><tspan x="0" dy="0.9em">758</tspan></text>
+    <title>C(18, 10) = 43,758</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>31,</tspan><tspan x="0" dy="0.9em">824</tspan></text>
+    <title>C(18, 11) = 31,824</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>18,</tspan><tspan x="0" dy="0.9em">564</tspan></text>
+    <title>C(18, 12) = 18,564</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">568</tspan></text>
+    <title>C(18, 13) = 8,568</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">060</tspan></text>
+    <title>C(18, 14) = 3,060</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>816</tspan></text>
+    <title>C(18, 15) = 816</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>153</tspan></text>
+    <title>C(18, 16) = 153</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>18</tspan></text>
+    <title>C(18, 17) = 18</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(18, 18) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1645)">
+   <g transform="translate(-950,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(19, 0) = 1</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>19</tspan></text>
+    <title>C(19, 1) = 19</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>171</tspan></text>
+    <title>C(19, 2) = 171</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>969</tspan></text>
+    <title>C(19, 3) = 969</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">876</tspan></text>
+    <title>C(19, 4) = 3,876</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>11,</tspan><tspan x="0" dy="0.9em">628</tspan></text>
+    <title>C(19, 5) = 11,628</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>27,</tspan><tspan x="0" dy="0.9em">132</tspan></text>
+    <title>C(19, 6) = 27,132</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>50,</tspan><tspan x="0" dy="0.9em">388</tspan></text>
+    <title>C(19, 7) = 50,388</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>75,</tspan><tspan x="0" dy="0.9em">582</tspan></text>
+    <title>C(19, 8) = 75,582</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>92,</tspan><tspan x="0" dy="0.9em">378</tspan></text>
+    <title>C(19, 9) = 92,378</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>92,</tspan><tspan x="0" dy="0.9em">378</tspan></text>
+    <title>C(19, 10) = 92,378</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>75,</tspan><tspan x="0" dy="0.9em">582</tspan></text>
+    <title>C(19, 11) = 75,582</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>50,</tspan><tspan x="0" dy="0.9em">388</tspan></text>
+    <title>C(19, 12) = 50,388</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>27,</tspan><tspan x="0" dy="0.9em">132</tspan></text>
+    <title>C(19, 13) = 27,132</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>11,</tspan><tspan x="0" dy="0.9em">628</tspan></text>
+    <title>C(19, 14) = 11,628</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">876</tspan></text>
+    <title>C(19, 15) = 3,876</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>969</tspan></text>
+    <title>C(19, 16) = 969</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>171</tspan></text>
+    <title>C(19, 17) = 171</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>19</tspan></text>
+    <title>C(19, 18) = 19</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(19, 19) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1732)">
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(20, 0) = 1</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>20</tspan></text>
+    <title>C(20, 1) = 20</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>190</tspan></text>
+    <title>C(20, 2) = 190</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">140</tspan></text>
+    <title>C(20, 3) = 1,140</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">845</tspan></text>
+    <title>C(20, 4) = 4,845</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>15,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(20, 5) = 15,504</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>38,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(20, 6) = 38,760</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>77,</tspan><tspan x="0" dy="0.9em">520</tspan></text>
+    <title>C(20, 7) = 77,520</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>125,</tspan><tspan x="0" dy="0.9em">970</tspan></text>
+    <title>C(20, 8) = 125,970</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>167,</tspan><tspan x="0" dy="0.9em">960</tspan></text>
+    <title>C(20, 9) = 167,960</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>184,</tspan><tspan x="0" dy="0.9em">756</tspan></text>
+    <title>C(20, 10) = 184,756</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>167,</tspan><tspan x="0" dy="0.9em">960</tspan></text>
+    <title>C(20, 11) = 167,960</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>125,</tspan><tspan x="0" dy="0.9em">970</tspan></text>
+    <title>C(20, 12) = 125,970</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>77,</tspan><tspan x="0" dy="0.9em">520</tspan></text>
+    <title>C(20, 13) = 77,520</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>38,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(20, 14) = 38,760</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>15,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(20, 15) = 15,504</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">845</tspan></text>
+    <title>C(20, 16) = 4,845</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">140</tspan></text>
+    <title>C(20, 17) = 1,140</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>190</tspan></text>
+    <title>C(20, 18) = 190</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>20</tspan></text>
+    <title>C(20, 19) = 20</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(20, 20) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1819)">
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(21, 0) = 1</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>21</tspan></text>
+    <title>C(21, 1) = 21</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>210</tspan></text>
+    <title>C(21, 2) = 210</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">330</tspan></text>
+    <title>C(21, 3) = 1,330</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>5,</tspan><tspan x="0" dy="0.9em">985</tspan></text>
+    <title>C(21, 4) = 5,985</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>20,</tspan><tspan x="0" dy="0.9em">349</tspan></text>
+    <title>C(21, 5) = 20,349</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>54,</tspan><tspan x="0" dy="0.9em">264</tspan></text>
+    <title>C(21, 6) = 54,264</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>116,</tspan><tspan x="0" dy="0.9em">280</tspan></text>
+    <title>C(21, 7) = 116,280</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>203,</tspan><tspan x="0" dy="0.9em">490</tspan></text>
+    <title>C(21, 8) = 203,490</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>293,</tspan><tspan x="0" dy="0.9em">930</tspan></text>
+    <title>C(21, 9) = 293,930</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>352,</tspan><tspan x="0" dy="0.9em">716</tspan></text>
+    <title>C(21, 10) = 352,716</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>352,</tspan><tspan x="0" dy="0.9em">716</tspan></text>
+    <title>C(21, 11) = 352,716</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>293,</tspan><tspan x="0" dy="0.9em">930</tspan></text>
+    <title>C(21, 12) = 293,930</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>203,</tspan><tspan x="0" dy="0.9em">490</tspan></text>
+    <title>C(21, 13) = 203,490</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>116,</tspan><tspan x="0" dy="0.9em">280</tspan></text>
+    <title>C(21, 14) = 116,280</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>54,</tspan><tspan x="0" dy="0.9em">264</tspan></text>
+    <title>C(21, 15) = 54,264</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>20,</tspan><tspan x="0" dy="0.9em">349</tspan></text>
+    <title>C(21, 16) = 20,349</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>5,</tspan><tspan x="0" dy="0.9em">985</tspan></text>
+    <title>C(21, 17) = 5,985</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">330</tspan></text>
+    <title>C(21, 18) = 1,330</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>210</tspan></text>
+    <title>C(21, 19) = 210</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>21</tspan></text>
+    <title>C(21, 20) = 21</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(21, 21) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1905)">
+   <g transform="translate(-1100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(22, 0) = 1</title>
+   </g>
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>22</tspan></text>
+    <title>C(22, 1) = 22</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>231</tspan></text>
+    <title>C(22, 2) = 231</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">540</tspan></text>
+    <title>C(22, 3) = 1,540</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>7,</tspan><tspan x="0" dy="0.9em">315</tspan></text>
+    <title>C(22, 4) = 7,315</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>26,</tspan><tspan x="0" dy="0.9em">334</tspan></text>
+    <title>C(22, 5) = 26,334</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>74,</tspan><tspan x="0" dy="0.9em">613</tspan></text>
+    <title>C(22, 6) = 74,613</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>170,</tspan><tspan x="0" dy="0.9em">544</tspan></text>
+    <title>C(22, 7) = 170,544</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>319,</tspan><tspan x="0" dy="0.9em">770</tspan></text>
+    <title>C(22, 8) = 319,770</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>497,</tspan><tspan x="0" dy="0.9em">420</tspan></text>
+    <title>C(22, 9) = 497,420</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>646,</tspan><tspan x="0" dy="0.9em">646</tspan></text>
+    <title>C(22, 10) = 646,646</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>705,</tspan><tspan x="0" dy="0.9em">432</tspan></text>
+    <title>C(22, 11) = 705,432</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>646,</tspan><tspan x="0" dy="0.9em">646</tspan></text>
+    <title>C(22, 12) = 646,646</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>497,</tspan><tspan x="0" dy="0.9em">420</tspan></text>
+    <title>C(22, 13) = 497,420</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>319,</tspan><tspan x="0" dy="0.9em">770</tspan></text>
+    <title>C(22, 14) = 319,770</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>170,</tspan><tspan x="0" dy="0.9em">544</tspan></text>
+    <title>C(22, 15) = 170,544</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>74,</tspan><tspan x="0" dy="0.9em">613</tspan></text>
+    <title>C(22, 16) = 74,613</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>26,</tspan><tspan x="0" dy="0.9em">334</tspan></text>
+    <title>C(22, 17) = 26,334</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>7,</tspan><tspan x="0" dy="0.9em">315</tspan></text>
+    <title>C(22, 18) = 7,315</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">540</tspan></text>
+    <title>C(22, 19) = 1,540</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>231</tspan></text>
+    <title>C(22, 20) = 231</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>22</tspan></text>
+    <title>C(22, 21) = 22</title>
+   </g>
+   <g transform="translate(1100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(22, 22) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,1992)">
+   <g transform="translate(-1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(23, 0) = 1</title>
+   </g>
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>23</tspan></text>
+    <title>C(23, 1) = 23</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>253</tspan></text>
+    <title>C(23, 2) = 253</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">771</tspan></text>
+    <title>C(23, 3) = 1,771</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">855</tspan></text>
+    <title>C(23, 4) = 8,855</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>33,</tspan><tspan x="0" dy="0.9em">649</tspan></text>
+    <title>C(23, 5) = 33,649</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>100,</tspan><tspan x="0" dy="0.9em">947</tspan></text>
+    <title>C(23, 6) = 100,947</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>245,</tspan><tspan x="0" dy="0.9em">157</tspan></text>
+    <title>C(23, 7) = 245,157</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>490,</tspan><tspan x="0" dy="0.9em">314</tspan></text>
+    <title>C(23, 8) = 490,314</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>817,</tspan><tspan x="0" dy="0.9em">190</tspan></text>
+    <title>C(23, 9) = 817,190</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">144,</tspan><tspan x="0" dy="0.9em">066</tspan></text>
+    <title>C(23, 10) = 1,144,066</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">352,</tspan><tspan x="0" dy="0.9em">078</tspan></text>
+    <title>C(23, 11) = 1,352,078</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">352,</tspan><tspan x="0" dy="0.9em">078</tspan></text>
+    <title>C(23, 12) = 1,352,078</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">144,</tspan><tspan x="0" dy="0.9em">066</tspan></text>
+    <title>C(23, 13) = 1,144,066</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>817,</tspan><tspan x="0" dy="0.9em">190</tspan></text>
+    <title>C(23, 14) = 817,190</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>490,</tspan><tspan x="0" dy="0.9em">314</tspan></text>
+    <title>C(23, 15) = 490,314</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>245,</tspan><tspan x="0" dy="0.9em">157</tspan></text>
+    <title>C(23, 16) = 245,157</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>100,</tspan><tspan x="0" dy="0.9em">947</tspan></text>
+    <title>C(23, 17) = 100,947</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>33,</tspan><tspan x="0" dy="0.9em">649</tspan></text>
+    <title>C(23, 18) = 33,649</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>8,</tspan><tspan x="0" dy="0.9em">855</tspan></text>
+    <title>C(23, 19) = 8,855</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>1,</tspan><tspan x="0" dy="0.9em">771</tspan></text>
+    <title>C(23, 20) = 1,771</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>253</tspan></text>
+    <title>C(23, 21) = 253</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>23</tspan></text>
+    <title>C(23, 22) = 23</title>
+   </g>
+   <g transform="translate(1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(23, 23) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2078)">
+   <g transform="translate(-1200,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(24, 0) = 1</title>
+   </g>
+   <g transform="translate(-1100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>24</tspan></text>
+    <title>C(24, 1) = 24</title>
+   </g>
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>276</tspan></text>
+    <title>C(24, 2) = 276</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">024</tspan></text>
+    <title>C(24, 3) = 2,024</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>10,</tspan><tspan x="0" dy="0.9em">626</tspan></text>
+    <title>C(24, 4) = 10,626</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>42,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(24, 5) = 42,504</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>134,</tspan><tspan x="0" dy="0.9em">596</tspan></text>
+    <title>C(24, 6) = 134,596</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>346,</tspan><tspan x="0" dy="0.9em">104</tspan></text>
+    <title>C(24, 7) = 346,104</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>735,</tspan><tspan x="0" dy="0.9em">471</tspan></text>
+    <title>C(24, 8) = 735,471</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">307,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(24, 9) = 1,307,504</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">961,</tspan><tspan x="0" dy="0.9em">256</tspan></text>
+    <title>C(24, 10) = 1,961,256</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">496,</tspan><tspan x="0" dy="0.9em">144</tspan></text>
+    <title>C(24, 11) = 2,496,144</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">704,</tspan><tspan x="0" dy="0.9em">156</tspan></text>
+    <title>C(24, 12) = 2,704,156</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">496,</tspan><tspan x="0" dy="0.9em">144</tspan></text>
+    <title>C(24, 13) = 2,496,144</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">961,</tspan><tspan x="0" dy="0.9em">256</tspan></text>
+    <title>C(24, 14) = 1,961,256</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">307,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(24, 15) = 1,307,504</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>735,</tspan><tspan x="0" dy="0.9em">471</tspan></text>
+    <title>C(24, 16) = 735,471</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>346,</tspan><tspan x="0" dy="0.9em">104</tspan></text>
+    <title>C(24, 17) = 346,104</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>134,</tspan><tspan x="0" dy="0.9em">596</tspan></text>
+    <title>C(24, 18) = 134,596</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>42,</tspan><tspan x="0" dy="0.9em">504</tspan></text>
+    <title>C(24, 19) = 42,504</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>10,</tspan><tspan x="0" dy="0.9em">626</tspan></text>
+    <title>C(24, 20) = 10,626</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">024</tspan></text>
+    <title>C(24, 21) = 2,024</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>276</tspan></text>
+    <title>C(24, 22) = 276</title>
+   </g>
+   <g transform="translate(1100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>24</tspan></text>
+    <title>C(24, 23) = 24</title>
+   </g>
+   <g transform="translate(1200,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(24, 24) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2165)">
+   <g transform="translate(-1250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(25, 0) = 1</title>
+   </g>
+   <g transform="translate(-1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>25</tspan></text>
+    <title>C(25, 1) = 25</title>
+   </g>
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>300</tspan></text>
+    <title>C(25, 2) = 300</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(25, 3) = 2,300</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>12,</tspan><tspan x="0" dy="0.9em">650</tspan></text>
+    <title>C(25, 4) = 12,650</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>53,</tspan><tspan x="0" dy="0.9em">130</tspan></text>
+    <title>C(25, 5) = 53,130</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>177,</tspan><tspan x="0" dy="0.9em">100</tspan></text>
+    <title>C(25, 6) = 177,100</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>480,</tspan><tspan x="0" dy="0.9em">700</tspan></text>
+    <title>C(25, 7) = 480,700</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">081,</tspan><tspan x="0" dy="0.9em">575</tspan></text>
+    <title>C(25, 8) = 1,081,575</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">042,</tspan><tspan x="0" dy="0.9em">975</tspan></text>
+    <title>C(25, 9) = 2,042,975</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">268,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(25, 10) = 3,268,760</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">457,</tspan><tspan x="0" dy="0.9em">400</tspan></text>
+    <title>C(25, 11) = 4,457,400</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">200,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(25, 12) = 5,200,300</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">200,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(25, 13) = 5,200,300</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">457,</tspan><tspan x="0" dy="0.9em">400</tspan></text>
+    <title>C(25, 14) = 4,457,400</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">268,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(25, 15) = 3,268,760</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">042,</tspan><tspan x="0" dy="0.9em">975</tspan></text>
+    <title>C(25, 16) = 2,042,975</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">081,</tspan><tspan x="0" dy="0.9em">575</tspan></text>
+    <title>C(25, 17) = 1,081,575</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>480,</tspan><tspan x="0" dy="0.9em">700</tspan></text>
+    <title>C(25, 18) = 480,700</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>177,</tspan><tspan x="0" dy="0.9em">100</tspan></text>
+    <title>C(25, 19) = 177,100</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>53,</tspan><tspan x="0" dy="0.9em">130</tspan></text>
+    <title>C(25, 20) = 53,130</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>12,</tspan><tspan x="0" dy="0.9em">650</tspan></text>
+    <title>C(25, 21) = 12,650</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(25, 22) = 2,300</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="50"><tspan>300</tspan></text>
+    <title>C(25, 23) = 300</title>
+   </g>
+   <g transform="translate(1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>25</tspan></text>
+    <title>C(25, 24) = 25</title>
+   </g>
+   <g transform="translate(1250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(25, 25) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2252)">
+   <g transform="translate(-1300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(26, 0) = 1</title>
+   </g>
+   <g transform="translate(-1200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>26</tspan></text>
+    <title>C(26, 1) = 26</title>
+   </g>
+   <g transform="translate(-1100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>325</tspan></text>
+    <title>C(26, 2) = 325</title>
+   </g>
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">600</tspan></text>
+    <title>C(26, 3) = 2,600</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>14,</tspan><tspan x="0" dy="0.9em">950</tspan></text>
+    <title>C(26, 4) = 14,950</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>65,</tspan><tspan x="0" dy="0.9em">780</tspan></text>
+    <title>C(26, 5) = 65,780</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>230,</tspan><tspan x="0" dy="0.9em">230</tspan></text>
+    <title>C(26, 6) = 230,230</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>657,</tspan><tspan x="0" dy="0.9em">800</tspan></text>
+    <title>C(26, 7) = 657,800</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">562,</tspan><tspan x="0" dy="0.9em">275</tspan></text>
+    <title>C(26, 8) = 1,562,275</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">124,</tspan><tspan x="0" dy="0.9em">550</tspan></text>
+    <title>C(26, 9) = 3,124,550</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">311,</tspan><tspan x="0" dy="0.9em">735</tspan></text>
+    <title>C(26, 10) = 5,311,735</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>7,</tspan><tspan x="0" dy="0.9em">726,</tspan><tspan x="0" dy="0.9em">160</tspan></text>
+    <title>C(26, 11) = 7,726,160</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>9,</tspan><tspan x="0" dy="0.9em">657,</tspan><tspan x="0" dy="0.9em">700</tspan></text>
+    <title>C(26, 12) = 9,657,700</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>10,</tspan><tspan x="0" dy="0.9em">400,</tspan><tspan x="0" dy="0.9em">600</tspan></text>
+    <title>C(26, 13) = 10,400,600</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>9,</tspan><tspan x="0" dy="0.9em">657,</tspan><tspan x="0" dy="0.9em">700</tspan></text>
+    <title>C(26, 14) = 9,657,700</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>7,</tspan><tspan x="0" dy="0.9em">726,</tspan><tspan x="0" dy="0.9em">160</tspan></text>
+    <title>C(26, 15) = 7,726,160</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">311,</tspan><tspan x="0" dy="0.9em">735</tspan></text>
+    <title>C(26, 16) = 5,311,735</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">124,</tspan><tspan x="0" dy="0.9em">550</tspan></text>
+    <title>C(26, 17) = 3,124,550</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">562,</tspan><tspan x="0" dy="0.9em">275</tspan></text>
+    <title>C(26, 18) = 1,562,275</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>657,</tspan><tspan x="0" dy="0.9em">800</tspan></text>
+    <title>C(26, 19) = 657,800</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>230,</tspan><tspan x="0" dy="0.9em">230</tspan></text>
+    <title>C(26, 20) = 230,230</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>65,</tspan><tspan x="0" dy="0.9em">780</tspan></text>
+    <title>C(26, 21) = 65,780</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>14,</tspan><tspan x="0" dy="0.9em">950</tspan></text>
+    <title>C(26, 22) = 14,950</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">600</tspan></text>
+    <title>C(26, 23) = 2,600</title>
+   </g>
+   <g transform="translate(1100,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>325</tspan></text>
+    <title>C(26, 24) = 325</title>
+   </g>
+   <g transform="translate(1200,0)">
+    <circle class="mod2_0 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>26</tspan></text>
+    <title>C(26, 25) = 26</title>
+   </g>
+   <g transform="translate(1300,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(26, 26) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2338)">
+   <g transform="translate(-1350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(27, 0) = 1</title>
+   </g>
+   <g transform="translate(-1250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>27</tspan></text>
+    <title>C(27, 1) = 27</title>
+   </g>
+   <g transform="translate(-1150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>351</tspan></text>
+    <title>C(27, 2) = 351</title>
+   </g>
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">925</tspan></text>
+    <title>C(27, 3) = 2,925</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>17,</tspan><tspan x="0" dy="0.9em">550</tspan></text>
+    <title>C(27, 4) = 17,550</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>80,</tspan><tspan x="0" dy="0.9em">730</tspan></text>
+    <title>C(27, 5) = 80,730</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>296,</tspan><tspan x="0" dy="0.9em">010</tspan></text>
+    <title>C(27, 6) = 296,010</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>888,</tspan><tspan x="0" dy="0.9em">030</tspan></text>
+    <title>C(27, 7) = 888,030</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">220,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(27, 8) = 2,220,075</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">686,</tspan><tspan x="0" dy="0.9em">825</tspan></text>
+    <title>C(27, 9) = 4,686,825</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>8,</tspan><tspan x="0" dy="0.9em">436,</tspan><tspan x="0" dy="0.9em">285</tspan></text>
+    <title>C(27, 10) = 8,436,285</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>13,</tspan><tspan x="0" dy="0.9em">037,</tspan><tspan x="0" dy="0.9em">895</tspan></text>
+    <title>C(27, 11) = 13,037,895</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>17,</tspan><tspan x="0" dy="0.9em">383,</tspan><tspan x="0" dy="0.9em">860</tspan></text>
+    <title>C(27, 12) = 17,383,860</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">058,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(27, 13) = 20,058,300</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">058,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(27, 14) = 20,058,300</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>17,</tspan><tspan x="0" dy="0.9em">383,</tspan><tspan x="0" dy="0.9em">860</tspan></text>
+    <title>C(27, 15) = 17,383,860</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>13,</tspan><tspan x="0" dy="0.9em">037,</tspan><tspan x="0" dy="0.9em">895</tspan></text>
+    <title>C(27, 16) = 13,037,895</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>8,</tspan><tspan x="0" dy="0.9em">436,</tspan><tspan x="0" dy="0.9em">285</tspan></text>
+    <title>C(27, 17) = 8,436,285</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">686,</tspan><tspan x="0" dy="0.9em">825</tspan></text>
+    <title>C(27, 18) = 4,686,825</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">220,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(27, 19) = 2,220,075</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>888,</tspan><tspan x="0" dy="0.9em">030</tspan></text>
+    <title>C(27, 20) = 888,030</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>296,</tspan><tspan x="0" dy="0.9em">010</tspan></text>
+    <title>C(27, 21) = 296,010</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>80,</tspan><tspan x="0" dy="0.9em">730</tspan></text>
+    <title>C(27, 22) = 80,730</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>17,</tspan><tspan x="0" dy="0.9em">550</tspan></text>
+    <title>C(27, 23) = 17,550</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>2,</tspan><tspan x="0" dy="0.9em">925</tspan></text>
+    <title>C(27, 24) = 2,925</title>
+   </g>
+   <g transform="translate(1150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>351</tspan></text>
+    <title>C(27, 25) = 351</title>
+   </g>
+   <g transform="translate(1250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>27</tspan></text>
+    <title>C(27, 26) = 27</title>
+   </g>
+   <g transform="translate(1350,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(27, 27) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2425)">
+   <g transform="translate(-1400,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(28, 0) = 1</title>
+   </g>
+   <g transform="translate(-1300,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>28</tspan></text>
+    <title>C(28, 1) = 28</title>
+   </g>
+   <g transform="translate(-1200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>378</tspan></text>
+    <title>C(28, 2) = 378</title>
+   </g>
+   <g transform="translate(-1100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">276</tspan></text>
+    <title>C(28, 3) = 3,276</title>
+   </g>
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>20,</tspan><tspan x="0" dy="0.9em">475</tspan></text>
+    <title>C(28, 4) = 20,475</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>98,</tspan><tspan x="0" dy="0.9em">280</tspan></text>
+    <title>C(28, 5) = 98,280</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>376,</tspan><tspan x="0" dy="0.9em">740</tspan></text>
+    <title>C(28, 6) = 376,740</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">184,</tspan><tspan x="0" dy="0.9em">040</tspan></text>
+    <title>C(28, 7) = 1,184,040</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">108,</tspan><tspan x="0" dy="0.9em">105</tspan></text>
+    <title>C(28, 8) = 3,108,105</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>6,</tspan><tspan x="0" dy="0.9em">906,</tspan><tspan x="0" dy="0.9em">900</tspan></text>
+    <title>C(28, 9) = 6,906,900</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>13,</tspan><tspan x="0" dy="0.9em">123,</tspan><tspan x="0" dy="0.9em">110</tspan></text>
+    <title>C(28, 10) = 13,123,110</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>21,</tspan><tspan x="0" dy="0.9em">474,</tspan><tspan x="0" dy="0.9em">180</tspan></text>
+    <title>C(28, 11) = 21,474,180</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>30,</tspan><tspan x="0" dy="0.9em">421,</tspan><tspan x="0" dy="0.9em">755</tspan></text>
+    <title>C(28, 12) = 30,421,755</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>37,</tspan><tspan x="0" dy="0.9em">442,</tspan><tspan x="0" dy="0.9em">160</tspan></text>
+    <title>C(28, 13) = 37,442,160</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>40,</tspan><tspan x="0" dy="0.9em">116,</tspan><tspan x="0" dy="0.9em">600</tspan></text>
+    <title>C(28, 14) = 40,116,600</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>37,</tspan><tspan x="0" dy="0.9em">442,</tspan><tspan x="0" dy="0.9em">160</tspan></text>
+    <title>C(28, 15) = 37,442,160</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>30,</tspan><tspan x="0" dy="0.9em">421,</tspan><tspan x="0" dy="0.9em">755</tspan></text>
+    <title>C(28, 16) = 30,421,755</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>21,</tspan><tspan x="0" dy="0.9em">474,</tspan><tspan x="0" dy="0.9em">180</tspan></text>
+    <title>C(28, 17) = 21,474,180</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>13,</tspan><tspan x="0" dy="0.9em">123,</tspan><tspan x="0" dy="0.9em">110</tspan></text>
+    <title>C(28, 18) = 13,123,110</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>6,</tspan><tspan x="0" dy="0.9em">906,</tspan><tspan x="0" dy="0.9em">900</tspan></text>
+    <title>C(28, 19) = 6,906,900</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>3,</tspan><tspan x="0" dy="0.9em">108,</tspan><tspan x="0" dy="0.9em">105</tspan></text>
+    <title>C(28, 20) = 3,108,105</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">184,</tspan><tspan x="0" dy="0.9em">040</tspan></text>
+    <title>C(28, 21) = 1,184,040</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>376,</tspan><tspan x="0" dy="0.9em">740</tspan></text>
+    <title>C(28, 22) = 376,740</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>98,</tspan><tspan x="0" dy="0.9em">280</tspan></text>
+    <title>C(28, 23) = 98,280</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>20,</tspan><tspan x="0" dy="0.9em">475</tspan></text>
+    <title>C(28, 24) = 20,475</title>
+   </g>
+   <g transform="translate(1100,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">276</tspan></text>
+    <title>C(28, 25) = 3,276</title>
+   </g>
+   <g transform="translate(1200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>378</tspan></text>
+    <title>C(28, 26) = 378</title>
+   </g>
+   <g transform="translate(1300,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="0.35em" font-size="70"><tspan>28</tspan></text>
+    <title>C(28, 27) = 28</title>
+   </g>
+   <g transform="translate(1400,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(28, 28) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2511)">
+   <g transform="translate(-1450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(29, 0) = 1</title>
+   </g>
+   <g transform="translate(-1350,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>29</tspan></text>
+    <title>C(29, 1) = 29</title>
+   </g>
+   <g transform="translate(-1250,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>406</tspan></text>
+    <title>C(29, 2) = 406</title>
+   </g>
+   <g transform="translate(-1150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">654</tspan></text>
+    <title>C(29, 3) = 3,654</title>
+   </g>
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>23,</tspan><tspan x="0" dy="0.9em">751</tspan></text>
+    <title>C(29, 4) = 23,751</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>118,</tspan><tspan x="0" dy="0.9em">755</tspan></text>
+    <title>C(29, 5) = 118,755</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>475,</tspan><tspan x="0" dy="0.9em">020</tspan></text>
+    <title>C(29, 6) = 475,020</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">560,</tspan><tspan x="0" dy="0.9em">780</tspan></text>
+    <title>C(29, 7) = 1,560,780</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">292,</tspan><tspan x="0" dy="0.9em">145</tspan></text>
+    <title>C(29, 8) = 4,292,145</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>10,</tspan><tspan x="0" dy="0.9em">015,</tspan><tspan x="0" dy="0.9em">005</tspan></text>
+    <title>C(29, 9) = 10,015,005</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">030,</tspan><tspan x="0" dy="0.9em">010</tspan></text>
+    <title>C(29, 10) = 20,030,010</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>34,</tspan><tspan x="0" dy="0.9em">597,</tspan><tspan x="0" dy="0.9em">290</tspan></text>
+    <title>C(29, 11) = 34,597,290</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>51,</tspan><tspan x="0" dy="0.9em">895,</tspan><tspan x="0" dy="0.9em">935</tspan></text>
+    <title>C(29, 12) = 51,895,935</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>67,</tspan><tspan x="0" dy="0.9em">863,</tspan><tspan x="0" dy="0.9em">915</tspan></text>
+    <title>C(29, 13) = 67,863,915</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>77,</tspan><tspan x="0" dy="0.9em">558,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(29, 14) = 77,558,760</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>77,</tspan><tspan x="0" dy="0.9em">558,</tspan><tspan x="0" dy="0.9em">760</tspan></text>
+    <title>C(29, 15) = 77,558,760</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>67,</tspan><tspan x="0" dy="0.9em">863,</tspan><tspan x="0" dy="0.9em">915</tspan></text>
+    <title>C(29, 16) = 67,863,915</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>51,</tspan><tspan x="0" dy="0.9em">895,</tspan><tspan x="0" dy="0.9em">935</tspan></text>
+    <title>C(29, 17) = 51,895,935</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>34,</tspan><tspan x="0" dy="0.9em">597,</tspan><tspan x="0" dy="0.9em">290</tspan></text>
+    <title>C(29, 18) = 34,597,290</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">030,</tspan><tspan x="0" dy="0.9em">010</tspan></text>
+    <title>C(29, 19) = 20,030,010</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>10,</tspan><tspan x="0" dy="0.9em">015,</tspan><tspan x="0" dy="0.9em">005</tspan></text>
+    <title>C(29, 20) = 10,015,005</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>4,</tspan><tspan x="0" dy="0.9em">292,</tspan><tspan x="0" dy="0.9em">145</tspan></text>
+    <title>C(29, 21) = 4,292,145</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>1,</tspan><tspan x="0" dy="0.9em">560,</tspan><tspan x="0" dy="0.9em">780</tspan></text>
+    <title>C(29, 22) = 1,560,780</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>475,</tspan><tspan x="0" dy="0.9em">020</tspan></text>
+    <title>C(29, 23) = 475,020</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>118,</tspan><tspan x="0" dy="0.9em">755</tspan></text>
+    <title>C(29, 24) = 118,755</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>23,</tspan><tspan x="0" dy="0.9em">751</tspan></text>
+    <title>C(29, 25) = 23,751</title>
+   </g>
+   <g transform="translate(1150,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>3,</tspan><tspan x="0" dy="0.9em">654</tspan></text>
+    <title>C(29, 26) = 3,654</title>
+   </g>
+   <g transform="translate(1250,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="50"><tspan>406</tspan></text>
+    <title>C(29, 27) = 406</title>
+   </g>
+   <g transform="translate(1350,0)">
+    <circle class="mod2_1 mod3_2" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="70"><tspan>29</tspan></text>
+    <title>C(29, 28) = 29</title>
+   </g>
+   <g transform="translate(1450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(29, 29) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2598)">
+   <g transform="translate(-1500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(30, 0) = 1</title>
+   </g>
+   <g transform="translate(-1400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>30</tspan></text>
+    <title>C(30, 1) = 30</title>
+   </g>
+   <g transform="translate(-1300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>435</tspan></text>
+    <title>C(30, 2) = 435</title>
+   </g>
+   <g transform="translate(-1200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">060</tspan></text>
+    <title>C(30, 3) = 4,060</title>
+   </g>
+   <g transform="translate(-1100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>27,</tspan><tspan x="0" dy="0.9em">405</tspan></text>
+    <title>C(30, 4) = 27,405</title>
+   </g>
+   <g transform="translate(-1000,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>142,</tspan><tspan x="0" dy="0.9em">506</tspan></text>
+    <title>C(30, 5) = 142,506</title>
+   </g>
+   <g transform="translate(-900,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>593,</tspan><tspan x="0" dy="0.9em">775</tspan></text>
+    <title>C(30, 6) = 593,775</title>
+   </g>
+   <g transform="translate(-800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">035,</tspan><tspan x="0" dy="0.9em">800</tspan></text>
+    <title>C(30, 7) = 2,035,800</title>
+   </g>
+   <g transform="translate(-700,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">852,</tspan><tspan x="0" dy="0.9em">925</tspan></text>
+    <title>C(30, 8) = 5,852,925</title>
+   </g>
+   <g transform="translate(-600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>14,</tspan><tspan x="0" dy="0.9em">307,</tspan><tspan x="0" dy="0.9em">150</tspan></text>
+    <title>C(30, 9) = 14,307,150</title>
+   </g>
+   <g transform="translate(-500,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>30,</tspan><tspan x="0" dy="0.9em">045,</tspan><tspan x="0" dy="0.9em">015</tspan></text>
+    <title>C(30, 10) = 30,045,015</title>
+   </g>
+   <g transform="translate(-400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>54,</tspan><tspan x="0" dy="0.9em">627,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(30, 11) = 54,627,300</title>
+   </g>
+   <g transform="translate(-300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>86,</tspan><tspan x="0" dy="0.9em">493,</tspan><tspan x="0" dy="0.9em">225</tspan></text>
+    <title>C(30, 12) = 86,493,225</title>
+   </g>
+   <g transform="translate(-200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>119,</tspan><tspan x="0" dy="0.9em">759,</tspan><tspan x="0" dy="0.9em">850</tspan></text>
+    <title>C(30, 13) = 119,759,850</title>
+   </g>
+   <g transform="translate(-100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>145,</tspan><tspan x="0" dy="0.9em">422,</tspan><tspan x="0" dy="0.9em">675</tspan></text>
+    <title>C(30, 14) = 145,422,675</title>
+   </g>
+   <g transform="translate(0,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>155,</tspan><tspan x="0" dy="0.9em">117,</tspan><tspan x="0" dy="0.9em">520</tspan></text>
+    <title>C(30, 15) = 155,117,520</title>
+   </g>
+   <g transform="translate(100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>145,</tspan><tspan x="0" dy="0.9em">422,</tspan><tspan x="0" dy="0.9em">675</tspan></text>
+    <title>C(30, 16) = 145,422,675</title>
+   </g>
+   <g transform="translate(200,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>119,</tspan><tspan x="0" dy="0.9em">759,</tspan><tspan x="0" dy="0.9em">850</tspan></text>
+    <title>C(30, 17) = 119,759,850</title>
+   </g>
+   <g transform="translate(300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>86,</tspan><tspan x="0" dy="0.9em">493,</tspan><tspan x="0" dy="0.9em">225</tspan></text>
+    <title>C(30, 18) = 86,493,225</title>
+   </g>
+   <g transform="translate(400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>54,</tspan><tspan x="0" dy="0.9em">627,</tspan><tspan x="0" dy="0.9em">300</tspan></text>
+    <title>C(30, 19) = 54,627,300</title>
+   </g>
+   <g transform="translate(500,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>30,</tspan><tspan x="0" dy="0.9em">045,</tspan><tspan x="0" dy="0.9em">015</tspan></text>
+    <title>C(30, 20) = 30,045,015</title>
+   </g>
+   <g transform="translate(600,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.55em" font-size="30"><tspan>14,</tspan><tspan x="0" dy="0.9em">307,</tspan><tspan x="0" dy="0.9em">150</tspan></text>
+    <title>C(30, 21) = 14,307,150</title>
+   </g>
+   <g transform="translate(700,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>5,</tspan><tspan x="0" dy="0.9em">852,</tspan><tspan x="0" dy="0.9em">925</tspan></text>
+    <title>C(30, 22) = 5,852,925</title>
+   </g>
+   <g transform="translate(800,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">035,</tspan><tspan x="0" dy="0.9em">800</tspan></text>
+    <title>C(30, 23) = 2,035,800</title>
+   </g>
+   <g transform="translate(900,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>593,</tspan><tspan x="0" dy="0.9em">775</tspan></text>
+    <title>C(30, 24) = 593,775</title>
+   </g>
+   <g transform="translate(1000,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="-0.1em" font-size="40"><tspan>142,</tspan><tspan x="0" dy="0.9em">506</tspan></text>
+    <title>C(30, 25) = 142,506</title>
+   </g>
+   <g transform="translate(1100,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>27,</tspan><tspan x="0" dy="0.9em">405</tspan></text>
+    <title>C(30, 26) = 27,405</title>
+   </g>
+   <g transform="translate(1200,0)">
+    <circle class="mod2_0 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_0" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">060</tspan></text>
+    <title>C(30, 27) = 4,060</title>
+   </g>
+   <g transform="translate(1300,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="50"><tspan>435</tspan></text>
+    <title>C(30, 28) = 435</title>
+   </g>
+   <g transform="translate(1400,0)">
+    <circle class="mod2_0 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_2" x="0" y="0.35em" font-size="70"><tspan>30</tspan></text>
+    <title>C(30, 29) = 30</title>
+   </g>
+   <g transform="translate(1500,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(30, 30) = 1</title>
+   </g>
+  </g>
+  <g transform="translate(0,2685)">
+   <g transform="translate(-1550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(31, 0) = 1</title>
+   </g>
+   <g transform="translate(-1450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>31</tspan></text>
+    <title>C(31, 1) = 31</title>
+   </g>
+   <g transform="translate(-1350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>465</tspan></text>
+    <title>C(31, 2) = 465</title>
+   </g>
+   <g transform="translate(-1250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">495</tspan></text>
+    <title>C(31, 3) = 4,495</title>
+   </g>
+   <g transform="translate(-1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>31,</tspan><tspan x="0" dy="0.9em">465</tspan></text>
+    <title>C(31, 4) = 31,465</title>
+   </g>
+   <g transform="translate(-1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>169,</tspan><tspan x="0" dy="0.9em">911</tspan></text>
+    <title>C(31, 5) = 169,911</title>
+   </g>
+   <g transform="translate(-950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>736,</tspan><tspan x="0" dy="0.9em">281</tspan></text>
+    <title>C(31, 6) = 736,281</title>
+   </g>
+   <g transform="translate(-850,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">629,</tspan><tspan x="0" dy="0.9em">575</tspan></text>
+    <title>C(31, 7) = 2,629,575</title>
+   </g>
+   <g transform="translate(-750,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>7,</tspan><tspan x="0" dy="0.9em">888,</tspan><tspan x="0" dy="0.9em">725</tspan></text>
+    <title>C(31, 8) = 7,888,725</title>
+   </g>
+   <g transform="translate(-650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">160,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(31, 9) = 20,160,075</title>
+   </g>
+   <g transform="translate(-550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>44,</tspan><tspan x="0" dy="0.9em">352,</tspan><tspan x="0" dy="0.9em">165</tspan></text>
+    <title>C(31, 10) = 44,352,165</title>
+   </g>
+   <g transform="translate(-450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>84,</tspan><tspan x="0" dy="0.9em">672,</tspan><tspan x="0" dy="0.9em">315</tspan></text>
+    <title>C(31, 11) = 84,672,315</title>
+   </g>
+   <g transform="translate(-350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>141,</tspan><tspan x="0" dy="0.9em">120,</tspan><tspan x="0" dy="0.9em">525</tspan></text>
+    <title>C(31, 12) = 141,120,525</title>
+   </g>
+   <g transform="translate(-250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>206,</tspan><tspan x="0" dy="0.9em">253,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(31, 13) = 206,253,075</title>
+   </g>
+   <g transform="translate(-150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>265,</tspan><tspan x="0" dy="0.9em">182,</tspan><tspan x="0" dy="0.9em">525</tspan></text>
+    <title>C(31, 14) = 265,182,525</title>
+   </g>
+   <g transform="translate(-50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>300,</tspan><tspan x="0" dy="0.9em">540,</tspan><tspan x="0" dy="0.9em">195</tspan></text>
+    <title>C(31, 15) = 300,540,195</title>
+   </g>
+   <g transform="translate(50,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>300,</tspan><tspan x="0" dy="0.9em">540,</tspan><tspan x="0" dy="0.9em">195</tspan></text>
+    <title>C(31, 16) = 300,540,195</title>
+   </g>
+   <g transform="translate(150,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>265,</tspan><tspan x="0" dy="0.9em">182,</tspan><tspan x="0" dy="0.9em">525</tspan></text>
+    <title>C(31, 17) = 265,182,525</title>
+   </g>
+   <g transform="translate(250,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>206,</tspan><tspan x="0" dy="0.9em">253,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(31, 18) = 206,253,075</title>
+   </g>
+   <g transform="translate(350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>141,</tspan><tspan x="0" dy="0.9em">120,</tspan><tspan x="0" dy="0.9em">525</tspan></text>
+    <title>C(31, 19) = 141,120,525</title>
+   </g>
+   <g transform="translate(450,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>84,</tspan><tspan x="0" dy="0.9em">672,</tspan><tspan x="0" dy="0.9em">315</tspan></text>
+    <title>C(31, 20) = 84,672,315</title>
+   </g>
+   <g transform="translate(550,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>44,</tspan><tspan x="0" dy="0.9em">352,</tspan><tspan x="0" dy="0.9em">165</tspan></text>
+    <title>C(31, 21) = 44,352,165</title>
+   </g>
+   <g transform="translate(650,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>20,</tspan><tspan x="0" dy="0.9em">160,</tspan><tspan x="0" dy="0.9em">075</tspan></text>
+    <title>C(31, 22) = 20,160,075</title>
+   </g>
+   <g transform="translate(750,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.55em" font-size="30"><tspan>7,</tspan><tspan x="0" dy="0.9em">888,</tspan><tspan x="0" dy="0.9em">725</tspan></text>
+    <title>C(31, 23) = 7,888,725</title>
+   </g>
+   <g transform="translate(850,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.55em" font-size="30"><tspan>2,</tspan><tspan x="0" dy="0.9em">629,</tspan><tspan x="0" dy="0.9em">575</tspan></text>
+    <title>C(31, 24) = 2,629,575</title>
+   </g>
+   <g transform="translate(950,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>736,</tspan><tspan x="0" dy="0.9em">281</tspan></text>
+    <title>C(31, 25) = 736,281</title>
+   </g>
+   <g transform="translate(1050,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>169,</tspan><tspan x="0" dy="0.9em">911</tspan></text>
+    <title>C(31, 26) = 169,911</title>
+   </g>
+   <g transform="translate(1150,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="-0.1em" font-size="40"><tspan>31,</tspan><tspan x="0" dy="0.9em">465</tspan></text>
+    <title>C(31, 27) = 31,465</title>
+   </g>
+   <g transform="translate(1250,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="-0.1em" font-size="40"><tspan>4,</tspan><tspan x="0" dy="0.9em">495</tspan></text>
+    <title>C(31, 28) = 4,495</title>
+   </g>
+   <g transform="translate(1350,0)">
+    <circle class="mod2_1 mod3_0" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="50"><tspan>465</tspan></text>
+    <title>C(31, 29) = 465</title>
+   </g>
+   <g transform="translate(1450,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_3" x="0" y="0.35em" font-size="70"><tspan>31</tspan></text>
+    <title>C(31, 30) = 31</title>
+   </g>
+   <g transform="translate(1550,0)">
+    <circle class="mod2_1 mod3_1" cx="0" cy="0" r="49"/>
+    <text class="mod4_1" x="0" y="0.35em" font-size="90"><tspan>1</tspan></text>
+    <title>C(31, 31) = 1</title>
+   </g>
+  </g>
+<!-- } END_DYNAMIC_SVG -->
+  <path d="M 0,-9999 V 9999" stroke-dasharray="40,8,8,8" stroke="#ff9900"/>
+ </g>
+</svg>
+<!-- Please retain this and other comments, which contain Python code to generate this SVG. """
+import re, math
+def fmt(string): ## string.format(**vars()) using tags {expression!format} by CMG Lee
+ def f(tag): i_sep = tag.rfind('!'); return (re.sub('\.0+$', '', str(eval(tag[1:-1])))
+  if (i_sep < 0) else ('{:%s}' % tag[i_sep + 1:-1]).format(eval(tag[1:i_sep])))
+ return (re.sub(r'(?<!{){[^{}]+}', lambda m:f(m.group()), string)
+         .replace('{{', '{').replace('}}', '}'))
+def append(obj, string): return obj.append(fmt(string))
+def format_tab(*arg): return '\t'.join([str(el) for el in (arg if len(arg) > 1 else arg[0])])
+
+n_n          = 32
+font_sizes   = [90, 70, 50, 40, 30]
+stroke_width = 2
+scale_x      = 100
+scale_y      = scale_x * math.sin(math.pi / 3)
+outs         = []
+coeffss      = []
+for n in range(n_n):
+ coeffss.append([])
+ append(outs, '''\
+  <g transform="translate(0,{n * scale_y!.0f})">''')
+ for k in range(n + 1):
+  coeff     = 1 if (k == 0 or k == n) else coeffss[n - 1][k - 1] + coeffss[n - 1][k]
+  label     = fmt('{coeff!,}')
+  n_line_1  = label.count(',')
+  font_size = font_sizes[n_line_1 + min(len(label) - 1, 2)]
+  label_y   = 0.35 - 0.45 * n_line_1
+  append(outs, '''\
+   <g transform="translate({(k - n / 2.0) * scale_x},0)">
+    <circle class="mod2_{coeff % 2} mod3_{coeff % 3}" cx="0" cy="0" r="{(scale_x - stroke_width) / 2}"/>
+    <text class="mod4_{coeff % 4}" x="0" y="{label_y}em" font-size="{font_size}"><tspan>{label.replace(',', ',</tspan><tspan x="0" dy="0.9em">')}</tspan></text>
+    <title>C({n}, {k}) = {label}</title>
+   </g>''')
+  coeffss[n].append(coeff)
+ append(outs,'''\
+  </g>''')
+ print(format_tab(coeffss[n]))
+
+out_p = 'width="100%" height="100%" viewBox="-1604 -60 3208 2807"'
+
+## Compile everything into an .svg file
+myself   = open(__file__, 'r').read() ## the contents of this very file
+file_out = open(__file__[:__file__.rfind('.')] + '.svg', 'w') ## *.* -> *.svg
+try: ## use try/finally so that file is closed even if write fails
+ file_out.write('''<?xml version="1.0" encoding="utf-8"?><!%s
+ %s%s%s\n%s%s''' % ('-' + '-', ## because SVG comments cannot have 2 consecutive '-'s
+  myself[ : myself.find('width',myself.find('<svg'))], ## assume width specified before height/viewBox
+  out_p, ## replace SVG width/height/viewBox with {out_p} & dynamic SVG block with {outs} contents
+  myself[myself.find('>',myself.find('<svg')) : myself.find('\n',myself.find('BEGIN_'+'DYNAMIC_SVG'))],
+  '\n'.join(outs), myself[myself.rfind('\n',0,myself.find('END_'+'DYNAMIC_SVG')) : ]))
+finally:
+ file_out.close()
+
+## SVG-Python near-polyglot framework version 2 by CMG Lee (Feb 2016) -->
