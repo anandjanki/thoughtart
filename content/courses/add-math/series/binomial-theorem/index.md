@@ -11,7 +11,9 @@ We have come a long way as human beings exploring mathematical operations. We wi
 
 ### Addition
 
-We started of course with the addition operation, starting with the addition of natural numbers, like 3 and 2.
+We started of course with the addition operation, starting with the addition of natural numbers, like 3 and 2 as shown in the pic[^1] below:
+
+[^1]: Photo details [here](https://commons.wikimedia.org/wiki/File:Addition01.svg) / CC BY-SA 3.0
 
 {{< figure src="images/Apple-Addition.png" width="20%" class="figs" title="3 + 2 = 5" >}}
 
@@ -22,7 +24,6 @@ It turns out that not just humans, but also other species such as primates and e
 {{< youtube id="H2gRLCZSBEA" >}}
 
 It should not come as much of a surprise, for a cheetah mother would likely need to be able to count to make sure all her cubs are with her, and a pack of hyenas would likely need to size up a group of bisons before attacking them.
-
 
 Humans of course have taken addition a long way since, having written down the rules of how to add not just natural numbers, but also positive and negative integers, rational numbers, irrational numbers, and even other objects such as functions and matrices.
 
@@ -250,9 +251,11 @@ Note that the two terms in the Binomial Theorem can be any real numbers or even 
 
 ### A visualization
 
-A beautiful geometric visualization of the Binomial Theorem up to index 3 is shown below:
+A beautiful geometric visualization[^2] of the Binomial Theorem up to index 3 is shown below:
 
 {{< figure src="images/binomial-geometric.png" class="figs" title="" >}}
+
+[^2]: Modified from [here](https://commons.wikimedia.org/wiki/File:Binomial_theorem_visualisation.svg) / CC BY-SA 3.0
 
 ## Patterns with Binomial Coefficients
 
@@ -332,7 +335,9 @@ Hence proved.
 
 ## Pascal's Triangle
 
-Arranging the Binomial Coefficients in the form of a triangle, where the m-th row has the coefficients from the expansion of \\( (a + b)^m \\), gives us the so-called Pascal's triangle.
+Arranging the Binomial Coefficients in the form of a triangle, where the m-th row has the coefficients from the expansion of \\( (a + b)^m \\), gives us the so-called Pascal's triangle[^3].
+
+[^3]: Photo details [here](https://commons.wikimedia.org/wiki/File:PascalTriangleAnimated2.gif) / Public domain
 
 {{< figure src="images/PascalTriangleAnimated2.gif" class="figs" title="First 5 rows of Pascal's triangle" >}}
 
@@ -342,7 +347,9 @@ Arranging the Binomial Coefficients in the form of a triangle, where the m-th ro
 
 From later commentary, it appears that the binomial coefficients and the additive formula for generating them, \\( {\displaystyle {\tbinom {n}{r}}={\tbinom {n-1}{r}}+{\tbinom {n-1}{r-1}}} \\), were known to Indian mathematician Pingala in or before the 2nd century BC. 
 
-A picture from an [archived library manuscript](https://archive.org/details/PrakritPingalaPrastaraVarnaMatraPatakadiYantrani775GhaAlm4Shlf3DevanagariAlankarShastra/page/n5/mode/2up) at Dharmartha Trust at the Raghunath Temple in Jammu, India depicts this pictorially:
+A picture from an [archived library manuscript](https://archive.org/details/PrakritPingalaPrastaraVarnaMatraPatakadiYantrani775GhaAlm4Shlf3DevanagariAlankarShastra/page/n5/mode/2up) at Dharmartha Trust at the Raghunath Temple[^4] in Jammu, India depicts this pictorially:
+
+[^4]: Photo details [here](https://archive.org/details/PrakritPingalaPrastaraVarnaMatraPatakadiYantrani775GhaAlm4Shlf3DevanagariAlankarShastra/page/n5/mode/2up) / CC0
 
 {{< figure src="images/Pingala-Meru-prastaara.png" class="figs" title="An ancient Indian manuscript with the depiction of the binomial coefficients as a triangle" >}}
 
@@ -354,7 +361,7 @@ The Pascal's triangle has innumerable interesting properties. Some of them are h
 
 ### Sierpinski triangle
 
-We conclude this session by noting that if we color the odd and even numbers in the Pascal's triangle with different colors, then we get a picture that resembles the Sierpinski triangle.
+We conclude this session by noting that if we color the odd and even numbers in the Pascal's triangle with different colors[^5], then we get a picture that resembles the Sierpinski triangle[^6].
 
 {{< columns >}}
 {{< figure src="images/Sierpinski_Pascal_triangle.svg" class="figs" title="" >}}
@@ -363,3 +370,6 @@ We conclude this session by noting that if we color the odd and even numbers in 
 {{< /columns >}}
 
 Its almost like magic 😎😎😎.
+
+[^5]: Photo details [here](https://commons.wikimedia.org/wiki/File:Sierpinski_Pascal_triangle.svg) / CC BY-SA 4.0
+[^6]: Photo details [here](https://commons.wikimedia.org/wiki/File:Sierpinski_triangle.svg) / CC BY-SA 3.0
