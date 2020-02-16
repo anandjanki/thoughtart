@@ -1,7 +1,7 @@
 ---
 title: "Sequences and Series"
 date: 2020-02-16T07:08:58+05:30
-draft: true
+draft: false
 weight: 2
 ---
 
