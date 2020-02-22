@@ -283,6 +283,22 @@ This can be visualized using the picture shown below.
 {{< /columns >}}
 Having added the first 4 odd numbers, to add the next odd number 9, we will be adding 9 unit squares to the right of the picture above to get a \\( 5 \text{ x } 5 \\) square, yielding the sum as 25.
 
+## Plotting an AP
+
+Let's take another example. Suppose the entry ticket at Disneyland is $50 every ride you take costs $5. Suppose a class of 20 students go on the field trip, and let's say just for the sake of this session that one of the students takes just 1 ride, another student takes 2 rides, a third student takes 3 rides, and so on. The teacher who accompanies the kids does not go on any of the rides. How much does a student who takes 10 rides need to spend? How much do all the students spend in all?
+
+We can plot this AP as points on a graph as shown below.
+
+{{< figure src="images/plot_points_of_an_AP.png" class="figs" title="" >}}
+
+Notice the striking similarity between the general term of the AP - \\( 50 + 5\cdot k\\) - and the equation of a line - \\( y = m\cdot x + c \\) - with slope 5, and intercept 50. 
+
+Notice also the similarity between the sum of the terms of the AP - 
+{{< katex >}}
+n\cdot \frac{t_1 + t_{n+1}}{2}
+{{< /katex >}}
+and the area of the trapezium formed under and between the line and the x-axis. We will visit these concepts at a later stage.
+
 ## Summary
 
 In summary, for an Arithmetic Progression with first term \\( a\\) and common difference \\( d\\), the general k-th term and the sum of first n-terms can be written as follows:
