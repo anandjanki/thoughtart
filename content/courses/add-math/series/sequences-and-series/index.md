@@ -72,7 +72,7 @@ Patterns on the bodies of animals have always fascinated humans - this includes 
 [^butterflies]: Photo details [here](https://commons.wikimedia.org/wiki/File:Dirce_Beauty_Colobura_dirce.jpg) / CC BY-SA 2.5
 [^zebra]: Photo details [here](https://commons.wikimedia.org/wiki/File:Equus_grevyi_(aka).jpg) / CC BY-SA 2.5
 
-Spirals have been studied with much interest, and they show up in expected places like the sea shells[^seashell] on the left, and unexpected places like the cabbage[^cabbage] on the right. It is strangely ironic that the sea shells are so much rarer in day to day life, whereas the cabbage would be part of our meals almost once a weeki, and yet the spiral goes unnoticed!
+Spirals have been studied with much interest, and they show up in expected places like the sea shells[^seashell] on the left, and unexpected places like the cabbage[^cabbage] on the right. It is strangely ironic that the sea shells are so much rarer in day to day life, whereas the cabbage would be part of our meals almost once a week, and yet the spiral goes unnoticed!
 
 {{< columns >}}
 {{< figure src="images/635px-NautilusCutawayLogarithmicSpiral.jpg" class="figs" title="Nautilus Spiral" >}}
@@ -93,7 +93,9 @@ The patterns of the sunflower seeds (and the organization in many other plant pa
 
 [^fibbonacci]: Photo details [here](http://realneo.us/content/bees-love-sunflowers-nature-loves-fibonacci-numbers) / No licesing details
 
-To ask the question - *why* - is a privilege we humans have, and to know the answer is a fortune granted to us by thousands of years of hard work put in by generations before us. Why are the sunflower seeds not concentric circles or say a grid pattern, why this particular spiral pattern? It turns out that nature may have experimented on various such patterns (over millions of years) and settled on this one as the arrangement that optimizes both the amount of light each seed gets while maximizing the number of seeds that can be packed in the available area!
+To ask the question - *why* - is a privilege we humans have, and to know the answer is a fortune granted to us by thousands of years of hard work put in by generations before us. 
+
+Why are the sunflower seeds not concentric circles or say a grid pattern, why this particular spiral pattern? It turns out that nature may have experimented on various such patterns (over millions of years) and settled on this one as the arrangement that optimizes both the amount of light each seed gets while maximizing the number of seeds that can be packed in the available area!
 
 Take a look at a picture of a baobab tree branches below left, and notice the striking similarity to the roots of a tree on the right. 
 
@@ -147,7 +149,7 @@ But first, lets get some notation down on how to represent sequences. The terms 
 {{< katex >}}
 \begin{array}{rcl}
 t_1 & = & \text{first element of the sequence} \\
-t_2 & = & \text{first element of the sequence} \\
+t_2 & = & \text{second element of the sequence} \\
 t_3 & = & \text{third element} \\
 & \vdots & \\
 t_{k - 1} & = & (k - 1)^{\text{th}} \text{ element of the sequence} \\
@@ -158,8 +160,8 @@ t_{k + 1} & = & (k + 1)^{\text{th}} \text{ element} \\
 {{< /katex >}}
 
 By \\( k^{\text{th}} \\) element, we mean some *general* element of the sequence. For e.g., we can write the \\( k^{\text{th}} \\) element of the sequence of even numbers as:
-$$ t_k = 2\cdot k\text{, } k\in \N  $$
-We substitute \\( k = 1, 2, 3, ... \\) to get the terms of the sequence.
+$$ t_k = 2\cdot k\text{, } $$ 
+Where, \\(k\in \N\\), we substitute \\( k = 1, 2, 3, ... \\) to get the terms of the sequence.
 
 ### Series definition
 
@@ -212,4 +214,44 @@ t_k & = & 0 & & \text{ if } k = 0 \\
 
 This YouTube video explains what is nice and interesting about this sequence:
 {{< youtube id="FGC5TdIiT9U" >}}
+
+## The man who planted trees
+
+Have you read this book about a man who planted trees over some forty years, single handedly cultivating a forest, tree by tree.
+
+{{< figure src="images/The_Man_Who_Planted_Trees_film.jpg" class="figs" title="" >}}
+
+That was simply an excuse to introduce different kinds of sequences, but if you haven't watched this award-winning animated [film](https://www.youtube.com/watch?v=KTvYh8ar3tc) or read the [book](https://www.goodreads.com/book/show/757438.The_Man_Who_Planted_Trees), you should definitely get your hands on it and do so.
+
+### One man, many trees
+
+Let's say the man is able to plant 10 seeds each day, how many seeds would he have planted over a year? That would simply be 365 x 10 trees.
+
+### One new man, every day
+
+Let's say that at the end of the day as the man is going back, one of the nearby villagers see him, gets inspired by what the man is doing and decides to join him the next day. So, the next day, there are 2 men planting trees. And let's say this repeats, at the end of second day, another villager sees them coming back and decides to join them from the third day onwards.
+
+The picture at the end of 5 days would look as shown below:
+
+{{< columns "25,50,25" >}}
+<--->
+{{< figure src="images/one-new-man-everyday.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+Suppose this continues, and a new man joins in the tree planting effort every day, how many trees would be planted say on the 50th day, how many trees would be planted in all by the end of a year? We will find the answers to these questions in this session on Artihmetic Progression.
+
+### Each one, get one new
+
+Let's consider a slightly different scenario, let's say at the end of the day as the man is going back , he stops by at the village and manages to convince one other person to join him. The second day, these two men go out planting trees, and at the end of the day, both of them go back to the village and each one of them manage to convince one other person to join them in the planting. How many men set out to plant trees on the 3rd day? We have two new men in addition to the two men already there, so that's a total of 4 men on the 3rd day. All four of them get back to their village at the end of the day, and each one of them manages to convice a new person to join. So, there would be 8 men on the 4th day and so on.
+
+{{< columns "25,50,25" >}}
+<--->
+{{< figure src="images/each-one-get-one-new.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+Suppose this continues, and each man is able to get one new man for the tree planting effort every day, how many trees would be planted say on the 10th day, how many trees would be planted in all by the end of a month? We will find the answers to these questions in the session on Geometric Progression.
+
+
 
