@@ -8,7 +8,7 @@ weight: 3
 ## AP basics
 
 {{< highlight-box "Defn 1:" "none" "" "part" >}}
-An Arithmetic Progression (or an AP) is a sequence of numbers such that the difference between consecutive terms is a constant.
+An **Arithmetic Progression** (or an AP) is a sequence of numbers such that the difference between consecutive terms is a constant.
 {{< /highlight-box >}}
 
 ### Examples
