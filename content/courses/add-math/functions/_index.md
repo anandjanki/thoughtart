@@ -1,5 +1,5 @@
 ---
-title: "1. Functions - TBD"
+title: "1. Functions"
 date: 2020-01-21T06:56:52+05:30
 draft: false
 weight: 1
