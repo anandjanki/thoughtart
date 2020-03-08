@@ -43,9 +43,13 @@ Note the curly braces to enclose the elements of the set, in some ways to signif
 
 {{< columns "25,50,25" >}}
 <--->
-\\(S_{IN}\\) = {saffron, white, green, blue}  
-\\(S_{IN}\\) = {white, saffron, green, blue}  
-\\(S_{IN}\\) = {white, saffron, green, blue, blue}
+{{< katex >}}
+\begin{array}{rcl}
+S_{IN} & = & \lbrace \text{saffron, white, green, blue} \rbrace \\
+S_{IN} & = & \lbrace \text{white, saffron, green, blue} \rbrace \\
+S_{IN} & = & \lbrace \text{white, saffron, green, blue, blue} \rbrace
+\end{array}
+{{< /katex >}}
 <--->
 {{< /columns >}}
 
