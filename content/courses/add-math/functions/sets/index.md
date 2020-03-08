@@ -35,7 +35,7 @@ This set is depicted (using what is called the roster notation) as follows:
 {{< columns "30,40,30" >}}
 <--->
 {{< figure src="images/india_flag.png" class="figs" title="" >}}
-\\(S_{IN}\\) = {saffron, white, green, blue}
+\\(S_I{}_N\\) = {saffron, white, green, blue}
 <--->
 {{< /columns >}}
 
@@ -45,9 +45,9 @@ Note the curly braces to enclose the elements of the set, in some ways to signif
 <--->
 {{< katex >}}
 \begin{array}{rcl}
-S_{IN} & = & \lbrace \text{saffron, white, green, blue} \rbrace \\
-S_{IN} & = & \lbrace \text{white, saffron, green, blue} \rbrace \\
-S_{IN} & = & \lbrace \text{white, saffron, green, blue, blue} \rbrace
+S_I{}_N & = & \lbrace \text{saffron, white, green, blue} \rbrace \\
+S_I{}_N & = & \lbrace \text{white, saffron, green, blue} \rbrace \\
+S_I{}_N & = & \lbrace \text{white, saffron, green, blue, blue} \rbrace
 \end{array}
 {{< /katex >}}
 <--->
@@ -76,12 +76,12 @@ The notation used to capture the belongingness of an element (or not) to the set
 
 {{< katex >}}
 \begin{array}{rcl}
-\text{blue} & \in & S_{IN} \\
-\text{red} & \notin & S_{IN} \\
+\text{blue} & \in & S_I{}_N \\
+\text{red} & \notin & S_I{}_N \\
 \end{array}
 {{< /katex >}}
 
-The first line above in English would read - the element blue is in the set \\( S_{IN} \\), sometimes also read as - blue belongs to \\( S_{IN} \\). The second above reads - the element red is not in the set \\( S_{IN} \\), or also as - red does not blelong to \\( S_{IN}\\).
+The first line above in English would read - the element blue is in the set \\( S_I{}_N \\), sometimes also read as - blue belongs to \\( S_I{}_N \\). The second line above reads - the element red is not in the set \\( S_I{}_N \\), or also as - red does not blelong to \\( S_I{}_N\\).
 
 ### Set equality
 
@@ -93,17 +93,17 @@ Consider the flags shown below of Canada and Switzerland respectively. (For simp
 
 {{< columns "60,10,30" >}}
 {{< figure src="images/canada_flag.png" class="figs ba" title="" >}}
-\\(S_{CN}\\) = {white, red}
+\\(S_C{}_N\\) = {white, red}
 <--->
 <--->
 {{< figure src="images/swiss_flag.png" class="figs" title="" >}}
-\\(S_{SW}\\) = {red, white}
+\\(S_S{}_W\\) = {red, white}
 {{< /columns >}}
 
 The two sets above are clearly equal since both the sets have exactly the same elements. Notice that the order of the elements does not matter.
 
 {{< katex >}}
-S_{CN} = S_{SW}
+S_C{}_N = S_S{}_W
 {{< /katex >}}
 
 ### Subsets
@@ -118,20 +118,20 @@ Consider the flags of Pakistan, Bangladesh and Maldives below (again, we will as
 
 {{< columns "35,40,35" >}}
 {{< figure src="images/pakistan_flag.png" class="figs ba" title="" >}}
-\\(S_{PK}\\) = {white, green}
+\\(S_P{}_K\\) = {white, green}
 <--->
 {{< figure src="images/bangladesh_flag.png" class="figs" title="" >}}
-\\(S_{BD}\\) = {red, green}
+\\(S_B{}_D\\) = {red, green}
 <--->
 {{< figure src="images/maldives_flag.png" class="figs" title="" >}}
-\\(S_{MV}\\) = {red, white, green}
+\\(S_M{}_V\\) = {red, white, green}
 {{< /columns >}}
 
 As it can be seen from the above, the set of colors in the flag of Pakistan is a subset of the set of colors in the flag of Maldives, and likewise the set of colors of the flag of Bangladesh is also a subset of the set of colors in the flag of Maldives. Written in set notation:
 
 {{< katex >}}
-S_{PK} \subset S_{MV} \\
-S_{BD} \subset S_{MV}
+S_P{}_K \subset S_M{}_V \\
+S_B{}_D \subset S_M{}_V
 {{< /katex >}}
 
 Pictorially, this is depicted as shown below. 
@@ -141,7 +141,7 @@ Pictorially, this is depicted as shown below.
 <--->
 {{< /columns >}}
 
-It shows that all the elements of the set \\( S_{PK} \\) also belong to the set \\( S_M{}_V \\).
+It shows that all the elements of the set \\( S_P{}_K \\) also belong to the set \\( S_M{}_V \\).
 
 ### Empty set
 
@@ -154,7 +154,7 @@ Since the empty set does not have any members, it is a *unique* set. What this m
 Interestingly, the empty set is a subset of any and every set. For e.g., for the sets of colors of flags above,
 
 {{< katex >}}
-\varnothing \subset S_{PK} \subset S_{MV}
+\varnothing \subset S_P{}_K \subset S_M{}_V
 {{< /katex >}}
 
 This can be depicted pictorially as below:
@@ -169,16 +169,16 @@ This can be depicted pictorially as below:
 
 An interesting idea is that since by definition a set is a collection of objects, a set can be a collection of other sets as well. 
 
-For e.g., consider the set \\( S_{MV} \\) consisting of 3 colors - {red, white, green}. What are *all possible* subsets of this set?
+For e.g., consider the set \\( S_M{}_V \\) consisting of 3 colors - {red, white, green}. What are *all possible* subsets of this set?
 
 {{< highlight-box "Defn 5:" "none" "" "part" >}}
 The set of all subsets of a set S is called the **power set** of S. And is typically denoted by \\( P(S) \\).
 {{< /highlight-box >}}
 
-The power set of the set \\( S_{MV} \\) is as shown below:
+The power set of the set \\( S_M{}_V \\) is as shown below:
 
 {{< katex >}}
-P(S_{MV}) = \{\varnothing, \{\text{red}\}, \{\text{white}\}, \{\text{green}\}, \{\text{red, white}\}, \{\text{red, green}\}, \{\text{white, green}\}, S_{MV}\}
+P(S_M{}_V) = \{\varnothing, \{\text{red}\}, \{\text{white}\}, \{\text{green}\}, \{\text{red, white}\}, \{\text{red, green}\}, \{\text{white, green}\}, S_M{}_V\}
 {{< /katex >}}
 
 Note firstly that all elements of the power set above are themselves sets. In fact, by definition of the power set, they are all subsets of the original set. Also note that two special elements of the power set are the empty set and the original set itself.
@@ -192,8 +192,8 @@ The number of elements of a set \\( S\\), is called the cardinality of the set a
 We can easily write the cardinality of soem of the sets we encountered above.
 {{< katex >}}
 \begin{array}{rcl}
-|S_{PK}| & = & 2 \\
-|S_{MV}| & = & 3 \\
+|S_P{}_K| & = & 2 \\
+|S_M{}_V| & = & 3 \\
 |\varnothing| & = & 0 \\
 \end{array}
 {{< /katex >}}
@@ -238,9 +238,9 @@ The **union** of set A and set B, denoted by \\(A \cup B\\), is the set of all o
 Consider the sets of colors in the flags of Pakistan and Bangladesh, what is the union of these two sets?
 {{< katex >}}
 \begin{array}{rcl}
-S_{PK} & = & \{\text{green, white}\} \\
-S_{BD} & = & \{\text{red, green}\} \\
-S_{PK} \cup S_{BD} & = & \{\text{red, green, white}\} \\
+S_P{}_K & = & \{\text{green, white}\} \\
+S_B{}_D & = & \{\text{red, green}\} \\
+S_P{}_K \cup S_B{}_D & = & \{\text{red, green, white}\} \\
 \end{array}
 {{< /katex >}}
 
@@ -290,7 +290,7 @@ And the union of both these sets would look as follows:
 {{< figure src="images/Set_SPK_U_SBD.png" class="figs" title="" >}}
 {{< katex >}}
 \begin{array}{rcl}
-S_{PK} \cup S_{BD} & = & \{\text{red, green, white}\} \\
+S_P{}_K \cup S_B{}_D & = & \{\text{red, green, white}\} \\
 \end{array}
 {{< /katex >}}
 
@@ -308,9 +308,9 @@ The **intersection** of set A and set B, denoted by \\(A \cap B\\), is the set o
 Consider the sets of colors in the flags of Pakistan and Bangladesh, what is the intersection of these two sets?
 {{< katex >}}
 \begin{array}{rcl}
-S_{PK} & = & \{\text{green, white}\} \\
-S_{BD} & = & \{\text{red, green}\} \\
-S_{PK} \cap S_{BD} & = & \{\text{green}\} \\
+S_P{}_K & = & \{\text{green, white}\} \\
+S_B{}_D & = & \{\text{red, green}\} \\
+S_P{}_K \cap S_B{}_D & = & \{\text{green}\} \\
 \end{array}
 {{< /katex >}}
 
@@ -349,7 +349,7 @@ The example from above would look as follows:
 {{< figure src="images/Set_SPK_I_SBD.png" class="figs" title="" >}}
 {{< katex >}}
 \begin{array}{rcl}
-S_{PK} \cap S_{BD} & = & \{\text{green}\} \\
+S_P{}_K \cap S_B{}_D & = & \{\text{green}\} \\
 \end{array}
 {{< /katex >}}
 
