@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-In a class of 20 children, 5 of them like History, 10 of them like English and 15 of them like Math!! Do you think this is an impossible statement, or is it possible to have class of only 20 children where all the conditions above are satisfied? What if we are posed an additional question - what is the maximum number of students who may not like any of these three subjects?
+In a class of 20 learners, 5 of them have taken History, 10 of them have taken English and 15 of them have taken Math!! Do you think this is an impossible statement, or is it possible to have class of only 20 learners where all the conditions above are satisfied? What if we are posed an additional question - what is the maximum number of learners who may not have taken any of these three subjects?
 
 Set theory can be used to answer such questions, as we will see shortly. But set theory goes way beyond this. Set theory is considered by many mathematicians as the foundations of pretty much all of mathematics, from which nearly all of mathematics can be derived! Such is the fundamental nature of set theory. For our pruposes, we will take a somewhat simplistic approach to set theory (what is called the naïve set theory or also the intuitive set theory defined using natural language rather than formal axioms) that still gives a pretty good flavor of the theory and its basic principles.
 
@@ -20,7 +20,7 @@ A **Set** is a well-defined collection of distinct objects. The objects that mak
 It is easy to find examples of sets, since the definition of a set is very broad and can include pretty much anything. Here are a few examples:
 
 - The collection of all pieces of furniture in the room you are in can be called a set.
-- The collection of all children in your class is another example of a set.
+- The collection of all learners in your class is another example of a set.
 - The collection of books you read during the last summer vacation can be considered as a set.
 - The collection of songs on your favorite playlist would be a set.
 
@@ -257,7 +257,7 @@ In words, the first rule above says that the union of a set with itself is the s
 
 The second rule above should also be obvious. Since the empty set does not contain any elements, it does not *add* any newer elements when we consider its union with any set A.
 
-We can derive more propoerties of the union operation, for e.g., the fact that the union operation is commutative and associative is captured below:
+We can derive more properties of the union operation, for e.g., the fact that the union operation is commutative and associative is captured below:
 
 {{< katex >}}
 \begin{array}{rcl}
@@ -326,7 +326,7 @@ In words, the first rule above says that the intersection of a set with itself i
 
 The second rule above should also be obvious. Since the empty set does not contain any elements, hence there are no elements which are in both the empy set and the set A, and hence the intersection is the empty set again.
 
-As in the case of the union operation, we can derive more propoerties of the intersection operation, for e.g., the fact that the intersection operation is commutative and associative is captured below:
+As in the case of the union operation, we can derive more properties of the intersection operation, for e.g., the fact that the intersection operation is commutative and associative is captured below:
 
 {{< katex >}}
 \begin{array}{rcl}
@@ -350,6 +350,62 @@ The example from above would look as follows:
 {{< katex >}}
 \begin{array}{rcl}
 S_P{}_K \cap S_B{}_D & = & \{\text{green}\} \\
+\end{array}
+{{< /katex >}}
+
+<--->
+{{< /columns >}}
+
+### Difference of sets
+
+{{< highlight-box "Defn 8:" "none" "" "part" >}}
+The **difference** of set A and set B, denoted by \\(A \backslash B\\), is the set of all elements that are members of set A *but not* members of set B.
+{{< /highlight-box >}}
+
+Consider the sets of colors in the flags of Pakistan and Bangladesh, what is the difference of these two sets?
+{{< katex >}}
+\begin{array}{rcl}
+S_P{}_K & = & \{\text{green, white}\} \\
+S_B{}_D & = & \{\text{red, green}\} \\
+S_P{}_K \backslash S_B{}_D & = & \{\text{white}\} \\
+\end{array}
+{{< /katex >}}
+
+Some inferences about the difference operation can be derived simply from the definition:
+{{< katex >}}
+\begin{array}{rcl}
+A \backslash A & = & \varnothing \\
+A \backslash \varnothing & = & A \\
+\end{array}
+{{< /katex >}}
+
+In words, the first rule above says that the difference of a set with itself is the empty set, because by definition the difference is the set of all objects that are in A but not in B, in this case B is the same as A, and the set of all objects is thus the empty set.
+
+The second rule above should also be obvious. Since the empty set does not contain any elements, none of the elements of A are in the empty set B, so all the elements remain upon taking the difference of the empty set from A.
+
+Unlike the union and the intersection operations, the difference operation is not commutative.
+
+{{< katex >}}
+\begin{array}{rcl}
+A \backslash B & \cancel{=} & B \backslash A \\
+\end{array}
+{{< /katex >}}
+
+The difference of two sets can also be depicted pictorially as follows:
+
+{{< columns "30,40,30" >}}
+<--->
+{{< figure src="images/set_difference.svg" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+The example from above would look as follows:
+{{< columns "20,60,20" >}}
+<--->
+{{< figure src="images/Set_SPK_D_SBD.png" class="figs" title="" >}}
+{{< katex >}}
+\begin{array}{rcl}
+S_P{}_K \backslash S_B{}_D & = & \{\text{white}\} \\
 \end{array}
 {{< /katex >}}
 
@@ -437,4 +493,86 @@ The cardinality of the set \\( B \times A\\) is also the same, but it is importa
 \end{array}
 {{< /katex >}}
 
+## Class of 20
 
+Let's go back to the problem that we posed at the beginning of the chapter.
+
+In a class of 20 learners, 5 of them have taken History, 10 of them have taken English and 15 of them have taken Math!! Do you think this is an impossible statement, or is it possible to have class of only 20 learners where all the conditions above are satisfied? What if we are posed an additional question - what is the maximum number of learners who may not have taken any of these three subjects?
+
+Firstly, we know this is not an impossible statement, because there can be some learners who have taken say both English and Math, some others who have taken all three subjects. Each of these groups of learners can be considered a set, let's call the collection of learners who have taken Math as the set \\( M\\), the collection of those who have taken English as \\( E \\) and the collection who have taken History as \\(H\\).
+
+We can imagine a scenario depicted below, where:
+
+- suppose there is 1 learner who has taken all three subjects Math, English and History, i.e. belongs to both the sets E and H and M, thus belongs to the set \\( M \cap H \cap E \\):
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects M-and-H-and-E.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+- suppose there are 2 learners who have taken both English and History, i.e. belongs to both the sets E and H, thus belongs to the set \\( E \cap H \\); out of these 2, one of them has already been accounted for, who takes English and History and also Math:
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects H-and-E.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+- and suppose there are 3 learners that have taken Math and History, so in the set \\( M \cap H \\); and 6 learners who have taken English and Math and thus in the set \\( E \cap M \\):
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects H-and-E M-and-E.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+- now, we can fill up the rest, the number of learners who have taken *only Math* and not taken either History or English would be \\( 15 - 5 - 1 - 2 = 7\\), the number of learners who have taken *only English* would be \\( 10 - 5 - 1 - 1 = 3 \\) and the number of learners who have taken *only History* would be \\( 5 - 1 - 1 - 2 = 1\\) as shown below:
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects M-only H-only E-only.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+- the set operations in the picture above may seem complicated at first, but should be fairly simple to grasp. In order to understand what \\( E \backslash ((E \cap H) \cup (E \cap M)) \\) is, lets go step by step:
+ - \\( E \cap H \\) is the intersection of \\( E\\) and \\( H\\), so everything thats there in both these sets,
+ - \\( E \cap M \\) is everything thats there in both these sets \\( E\\) and \\( M\\),
+ - \\( (E \cap H) \cup (E \cap M)\\) includes all elements that are there either in both \\( E\\) and \\( H\\) or in both \\(E\\) and \\(M\\), this can be visualized as below:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects E-and-H or E-and-M.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+ - And the difference of the above set from \\( E\\) gives us the set colored below:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects E-only.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+- So, finally, we have the following picture and that is one way in which the class can have only 20 learners, with 15 of them taking Math, 10 of them taking English and 5 of them taking History:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects one-solution.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+Of course, this is just one way, and there could be many other ways in which this condition can be met. A very simple way is shown below:
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects second-solution.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+Notice how there are only 15 learners who have taken any subjects at all - of them 5 have taken only Math, 5 have taken Math and English and 5 have taken all three. That leaves 5 more learners in the class who have not taken any subject at all. The usual way to depict this is by drawing an overall box for the whole class, that is called the universe for the problem at hand.
+
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/class subjects second-solution with-universe.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+
+And that gives us the answer to the original question that we started with. The maximum number of learners who may not have taken any subject at all can be 5.
