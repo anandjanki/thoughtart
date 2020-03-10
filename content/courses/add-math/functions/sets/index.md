@@ -575,4 +575,4 @@ Notice how there are only 15 learners who have taken any subjects at all - of th
 <--->
 {{< /columns >}}
 
-And that gives us the answer to the original question that we started with. The maximum number of learners who may not have taken any subject at all can be 5.
+And that gives us the answer to the original question that we started with. There is at least one scenario where the number of learners who have not have taken any subject at all is 5, and that is also the maximum number we can get, since 15 learners out of the class of 20 have taken Math.
