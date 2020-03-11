@@ -13,7 +13,7 @@ Now that we have looked at sets in fair amount of detail, we can start doing som
 A **Mapping** is simply a rule that connects elements of one set to the elements of another set.
 {{< /highlight-box >}}
 
-Note that implicit in the defintion is notion of a first set whose elements are connected to the elements on the other set, the second set.
+Note that implicit in the defintion is notion of a first set whose elements are connected or mapped to the elements on the other set, the second set.
 
 An example will help understand this idea. Imagine a team game such as soccer or basketball or Ultimate frisbee. Usually, when you line up as part of your team, your captain will have a chat on the strategy to pursue. When you are in defence, a common strategy to pursue in many of these team games is called man-to-man marking. Each of the members in your team decide which player of the opposing team to mark.
 
@@ -29,7 +29,7 @@ We can depict this pictorially as shown below:
 
 ### 1-to-1 mapping
 
-This above mapping is called a 1-to-1 mapping. In this mapping whenever an element of the first set is connected to an element of the second set, it is connected to *one unique* element of the second set.
+This above mapping is called a 1-to-1 mapping. In this mapping whenever an element of the first set is mapped to an element of the second set, it is mapped to *one unique* element of the second set.
 
 Don't be misled by the straight lines in the mapping above. The picture below is yet another example of a valid 1-to-1 mapping.
 
@@ -39,7 +39,7 @@ Don't be misled by the straight lines in the mapping above. The picture below is
 <--->
 {{< /columns >}}
 
-It is not necessary that all elements of the first set are connected to elements of the second set. For e.g., in a game such as soccer, the goalkeeper typically does not mark any other person and remains at the goal post. This is depicted in the mapping below:
+It is not necessary that all elements of the first set are mapped to elements of the second set. For e.g., in a game such as soccer, the goalkeeper typically does not mark any other person and remains at the goal post. This is depicted in the mapping below:
 
 {{< columns "20,60,20" >}}
 <--->

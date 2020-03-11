@@ -445,7 +445,7 @@ A \times B & = & \{(a, b) \, | \, a\in A \text{ and } b\in B\} \\
 \end{array}
 {{< /katex >}}
 
-In words, The Cartesian product of two sets \\(A\\) and \\( B\\) is the set of all ordered pairs \\( (a, b) \\) such that the first element of the pair is from set \\( A \\) and the second element of the pair is from set \\( B\\). Ordered pairs \\( (a, b)\\) are also sometimes called as tuples.
+In words, The Cartesian product of two sets \\(A\\) and \\( B\\) is the set of all ordered pairs \\( (a, b) \\) such that the first element of the pair is from set \\( A \\) and the second element of the pair is from set \\( B\\). Ordered pairs \\( (a, b)\\) are also sometimes called as tuples. Sometimes, the colon character \\( : \\) is also used in place of the pipe character \\( | \\) in the set-builder notation.
 
 A good example to understand Cartesian products of two sets is the following:
 {{< katex >}}
