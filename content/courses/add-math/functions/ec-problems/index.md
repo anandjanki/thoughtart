@@ -1,7 +1,7 @@
 ---
 title: "EC Problems"
 date: 2020-03-11T20:50:42+05:30
-draft: true
+draft: false
 weight: 4
 ---
 
