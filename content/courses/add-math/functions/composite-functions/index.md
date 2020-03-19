@@ -1,7 +1,7 @@
 ---
 title: "Composite Functions"
 date: 2020-03-14T23:21:46+05:30
-draft: true
+draft: false
 weight: 5
 ---
 
