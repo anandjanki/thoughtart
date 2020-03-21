@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Thought Thou Art"
 theme = "courseware"
 ignoreFiles = [ "\\.pxm$", "\\.mindnode$", "raw" ]
+googleAnalytics = "UA-161535944-1"
 [params]
   meta_pages_left = ["About"]
   meta_pages_right = ["Terms", "Follow", "Contact"]
