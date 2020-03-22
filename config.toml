@@ -14,3 +14,7 @@ googleAnalytics = "UA-161535944-1"
 
   custom_css = ["css/bar.css"]
 
+  twitterURL = "https://twitter.com/thou_thought"
+  facebookURL = "https://facebook.com/ThoughtThouArt"
+  githubURL = "https://github.com/anandjanki/thoughtart"
+
