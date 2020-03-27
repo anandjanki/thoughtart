@@ -2,6 +2,7 @@
 title: "2.1 Triangle Secrets"
 date: 2020-02-08T19:38:45+05:30
 draft: false
+weight: 1
 ---
 
 ## Geometry Sessions
