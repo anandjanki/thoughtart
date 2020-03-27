@@ -271,7 +271,7 @@ It should be fairly easy to prove this, using similar triangles to find equal an
 A few simple properties can be proven for the Varignon parallelogram:
 
 - The area of the Varignon parallelogram is half the area of the original quadrilateral.
-- The perimeter of the Varignon parallelogram is half the perimeter of the original quadrilateral.
+- The perimeter of the Varignon parallelogram is equal to the sum of the diagonals of the original quadrilateral.
 
 ## Wittenbauer Parallelogram
 
