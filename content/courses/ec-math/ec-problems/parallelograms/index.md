@@ -17,7 +17,7 @@ This puzzle is an extension of the Varignon parallelogram, the goal is to prove 
  - Also prove that this point is the midpoint of the line joining the midpoints of the diagonals.
 
 Put succinctly,   
-**Q.** Prove that the segments joining the midpoints of pairs of opposite sides of a quadrilateral and the segment joining the midpoints of the diagonals are concurrent and bisect one another.
+**Q1.** Prove that the segments joining the midpoints of pairs of opposite sides of a quadrilateral and the segment joining the midpoints of the diagonals are concurrent and bisect one another.
 
 {{< expand "Hint #1" >}}
 The picture to draw is here:
@@ -42,19 +42,17 @@ TBD
 
 ## Generalize Varignon & Wittenbauer 
 
-**Q.** What if we divide each side of a quadrilateral into k parts, and then connect the points closest to the vertices with lines. What figure do we get? What is the area of the Wittenbauer parallelogram? In general, what is the area of these generalized parallelograms relative to the original quadrilateral?
+**Q2.** What is the area of the Wittenbauer parallelogram? 
 
-{{< expand "Hint #1" >}}
-The picture to draw is here:
-{{< columns "20,60,20" >}}
+What if we divide each side of a quadrilateral into k parts, and then connect the points that are \\( i\\) parts away \\( i \leq \lfloor \displaystyle \frac{k}{2} \rfloor \\) from the vertices with lines. What figure do we get? That should be easy to guess, since this is a session on parallelograms. In general, what is the area of these generalized parallelograms relative to the original quadrilateral?
+
+{{< columns "10,80,10" >}}
 <--->
 {{< figure src="images/generalize-varignon-wittenbauer.png" class="figs" title="" >}}
 <--->
 {{< /columns >}}
 
-{{< /expand >}}
-
-{{< expand "Hint #2 TBD" >}}
+{{< expand "Hint TBD" >}}
 TBD
 {{< /expand >}}
 
@@ -64,6 +62,60 @@ TBD
 
 {{< expand "Answer TBD" >}}
 TBD
+{{< /expand >}}
+
+
+## Quad by Angle Bisectors
+
+**Q3.** Suppose we take a parallelogram and draw the angle bisector of each of its angles. 
+
+- What can we say about the angle bisectors of opposite angles?
+- What figure gets formed by the intersection points of the angle bisectors?
+- If the original parallelogram had sides \\( a \\) and \\( b\\) and angke \\( \alpha \\), then what is the area of this figure in terms of these quantities?
+
+{{< expand "Hint #1" >}}
+Just draw one pair of angle bisectors to see what may be happening:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/Hint-1.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+{{< /expand >}}
+
+{{< expand "Hint #2" >}}
+Well, draw the second pair of angle bisectors next:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/Hint-2.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+{{< /expand >}}
+
+{{< expand "Hint #3" >}}
+The shape should be fairly clear from this picture:
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/Hint-3.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+{{< /expand >}}
+
+{{< expand "Hint #4" >}}
+What can you say about the two triangles shown here?
+{{< columns "10,80,10" >}}
+<--->
+{{< figure src="images/Hint-4.png" class="figs" title="" >}}
+<--->
+{{< /columns >}}
+And hence what can you say about the sides of the figure in the middle?
+{{< /expand >}}
+
+{{< expand "Solution TBD" "..." >}}
+TBD
+{{< /expand >}}
+
+{{< expand "Answer" >}}
+\\( \displaystyle \frac{1}{2} \cdot (a - b)^2 \cdot \sin \alpha \\)
 {{< /expand >}}
 
 
