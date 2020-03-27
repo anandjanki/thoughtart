@@ -1,7 +1,7 @@
 ---
 title: "2.3 About Parallelograms"
 date: 2020-03-25T14:40:48+05:30
-draft: true
+draft: false
 weight: 3
 ---
 
