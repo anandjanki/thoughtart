@@ -95,3 +95,54 @@ The quadratic functions below are all defined over the domain \\( \R \\) and co-
 
 3. \\( |1 - 4x - 2x^2| = 4\\)
 
+### V. More modulus equations
+
+**a.** For each of the equations below, solve the equation using any method.
+
+**b.** Plot a rough sketch graph of the *corresponding function* represented by the LHS of the equation, and also the graph of the *corresponding function* represented by the RHS of the equation, and highlight the points of intersection of the graphs, which are also the solutions of the equation.
+
+1. \\( |2x - 1| = |x|\\)
+
+1. \\( |2x - 1| = |2x - 3|\\)
+
+2. \\( |3x - 2| = |2x + 5|\\)
+
+3. \\( |2x^2 - 2x - 15| = |1 - 4x - 2x^2| \\)
+
+### VI. Simultaneuous equations
+
+**a.** Solve the following simultaneous equations. 
+
+Note that this is the same as saying - you are given two functions, are there any values of \\(x\\) where the value of the function is the same?
+
+**b.** Yet another way of looking at these problems is the following - plot the graph of the two functions, and find any intersection points between them. So, plot a rough sketch graph of the *corresponding function* represented by the LHS of the equation, and also the graph of the *corresponding function* represented by the RHS of the equation, and highlight the points of intersection of the graphs, which are also the solutions of the
+equation.
+
+1. \\( 5x + 2y = 25\\)   
+\\( 2x - y = 1\\) 
+
+2. \\( 8x + 3y = 7 \\)   
+\\( 3x + 5y = -9 \\)
+
+2. \\( 3x + y = 10 \\)   
+\\( 2y = 15 - 6x \\)
+
+2. \\( 2x + 5 = 3y \\)   
+\\( 10 - 6y = -4x \\)
+
+### VII. Linear and non-linear
+
+Solve the following simultaneous equations by substituting one in the other.
+
+1. \\( y = x^2 \\)   
+\\( y = x + 6 \\)
+
+2. \\( y = x - 1 \\)   
+\\( x^2 + y^2 = 25 \\)
+
+2. \\( xy = 2 \\)   
+\\( x + y = 3 \\)
+
+2. \\( 3 + x + xy = 0 \\)   
+\\( 2x + 5y = 8 \\)
+
