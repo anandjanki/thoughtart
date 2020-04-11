@@ -146,3 +146,94 @@ Solve the following simultaneous equations by substituting one in the other.
 2. \\( 3 + x + xy = 0 \\)   
 \\( 2x + 5y = 8 \\)
 
+## C. Solving inequalities
+
+### I. Linear inequality
+
+**a.** Solve the inequalities given below to find the set of values of \\( x\\) for which the inequality hods true.
+
+**b.** Plot a rough sketch graph of the function represented by the LHS of the inequality and mark out the interval(s) of x values for which the inequality is satisfied.
+
+1. \\( 2x - 3 < 7 \\)
+
+2. \\( 3x + 10 \geq 1 \\) 
+
+1. \\( 2x + 1 \geq 3 - x \\)
+
+2. \\( -2x + 5 \geq -6 \\) 
+
+2. \\( -4(x - 2) < 8 \\)
+
+Remember that when you multiply or divide an inequality by a negative number, then the inequality reverses. For e.g., if \\( -x < 3 \\), if we multiple both sides by -1, we also need to reves the inequality, i.e. \\( x > -3 \\). Check and confirm for yourself that this is correct.
+
+### II. Quadratic inequality
+
+**a.** Solve the inequalities given below to find the set of values of \\( x\\) for which the inequality hods true.
+
+**b.** Plot a rough sketch graph of the function represented by the LHS of the inequality and mark out the interval(s) of x values for which the inequality is satisfied.
+
+1. \\( (x - 3)(x + 2) < 0 \\)
+
+1. \\( (x - 3)(x + 2) \geq 0 \\)
+
+2. \\( x^2 - 11x + 24 < 0 \\)
+
+2. \\( 12x \leq x^2 + 35 \\)
+
+### III. Inequality with modulus #1
+
+**a.** Solve the inequalities given below to find the set of values of \\( x\\) for which the inequality hods true.
+
+**b.** Plot a rough sketch graph of the function represented by the LHS of the inequality and mark out the interval(s) of x values for which the inequality is satisfied.
+
+1. \\( |2x - 3| < 7 \\)
+
+1. \\( |3x + 10| \geq 1 \\)
+
+1. \\( |4 - 5x| \leq 9 \\)
+
+Note that these are the same functions from **C.I.1** above, except with a modulus. 
+
+### IV. Inequality with modulus #2
+
+**a.** Solve the inequalities given below to find the set of values of \\( x\\) for which the inequality hods true.
+
+**b.** Plot a rough sketch graph of the function represented by the LHS of the inequality, also a graph of the function represented by the RHS of the inequality, and mark out the interval(s) of x values for which the inequality is satisfied.
+
+1. \\( |2x + 1| \geq |3 - x| \\)
+
+1. \\( |5 + x| > |7 - 2x| \\)
+
+1. \\( 2|x - 3| > |3x + 1| \\)
+
+1. \\( |2x - 5| \leq 3|2x + 1| \\)
+
+### V. Quadratic ineq. & modulus
+
+**a.** Solve the inequalities given below to find the set of values of \\( x\\) for which the inequality hods true.
+
+**b.** Plot a rough sketch graph of the function represented by the LHS of the inequality and mark out the interval(s) of x values for which the inequality is satisfied.
+
+1. \\( |(x - 3)(x + 2)| < 4 \\)
+
+1. \\( |x^2 -11x + 24| \geq 4 \\)
+
+1. \\( |x^2 + x - 2| < 13 \\)
+
+3. \\( |3.12x^2 + 4.56x -1.89| > 6 \\)
+
+### VI. Cubic Inequalities
+
+1. Sketch the graph of the function \\( y = x(x - 2)(x+1) \\) and solve the following:
+
+* \\( x(x - 2)(x+1) \leq 0 \\)
+* \\( x(x - 2)(x+1) \geq 0 \\)
+* \\( x(x - 2)(x+1) \leq -2 \\)
+
+1. Sketch the graph of the function \\( y = (x + 1)^2(2 - x) \\) and solve the following:
+
+* \\( (x+1)^2(2 - x) \geq 0 \\)
+* \\( (x+1)^2(2 - x) \geq 1 \\)
+* \\( (x+1)^2(2 - x) \leq 3 \\)
+* \\( (x+1)^2(2 - x) \leq 4 \\)
+
