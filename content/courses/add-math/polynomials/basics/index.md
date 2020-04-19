@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-We have looked at linear functions, f(x) = ax + b \\), quadratic functions of the form \\( f(x) = ax^2 + bx + c \\), and even cubic functions of the form \\( f(x) = ax^3 + bx^2 + cx + d \\). All these functions belong to a class of functions commonly known as polynomials. It should be easy to guess that a *quartic function* would follow the cubic function in the same pattern. 
+We have looked at linear functions, \\( f(x) = ax + b \\), quadratic functions of the form \\( f(x) = ax^2 + bx + c \\), and even cubic functions of the form \\( f(x) = ax^3 + bx^2 + cx + d \\). All these functions belong to a class of functions commonly known as polynomials. It should be easy to guess that a *quartic function* would follow the cubic function in the same pattern. 
 
 These are all listed below:
 
