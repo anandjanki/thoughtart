@@ -203,4 +203,120 @@ Notice how an even degree polynomial may not any real roots at all. But an odd d
 
 We will not prove this formally, but will simply note that this follows from the end behavior investigation we did in the previous section. 
 
-Lets the case of an odd degree polynomial with positive \\(a_n\\). We know that such a polynomial is negative as \\(x \to -\infty \\), and is positive as \\(x \to +\infty \\). Since polynomial functions are continuous functions (they dont have any breaks in them), it follows that at some point the function has to cross the x-axis from -ve values of y to +ve values of y. Hence it has at least 1 root. Suppose it crosses back to the negative side, meaning it has a second root, then it has to necessarily again cross back to the postiive side, because that is the only way it can get to positive values for \\( x \to \infty \\). We can make similar arguments in each of the cases above.
+Lets take the case of an odd degree polynomial with positive \\(a_n\\). We know that such a polynomial is negative as \\(x \to -\infty \\), and is positive as \\(x \to +\infty \\). Since polynomial functions are continuous functions (they dont have any breaks in them), it follows that at some point the function has to cross the x-axis from -ve values of y to +ve values of y. Hence it has at least 1 root. Suppose it crosses back to the negative side, meaning it has a second root, then it has to necessarily again cross back to the postiive side, because that is the only way it can get to positive values for \\( x \to \infty \\). We can make similar arguments in each of the cases above.
+
+## Solving polynomial equations
+
+We know very well how to solve polynomial equations of degree 1, these are simply linear equations of the form, $$ ax + b = 0 $$.
+
+We also know how to solve polynomial equations of degree 2, these are simply quadratic equations of the form, $$ ax^2 + bx + c = 0 $$. We also know how to find solutions to this quadratic equation. The solution as we know very well is given by: $$ x = \displaystyle \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+It turns out that this solution was known to human beings many years ago, we have reason to believe that it was known way back in 2000 B.C.!
+
+Since then, it took many many years before we could figure out how to solve polynomial equations of degree 3, that is cubic equations of the form: $$ ax^3 + bx^2 + cx + d = 0 $$
+
+Solving cubic equations became quite interesting in the 1500s, when a couple of mathematicians engaged in an intense contest trying to find out who can solve cubic equations better. This included Italian mathematicians Tartaglia and Cardano, who are credited with a lot of background work on solving cubic equations. You can read a little bit of this interesting history [here](https://en.wikipedia.org/wiki/Cubic_equation#History).
+
+The formula for the roots of the cubic equation turns out to be quite involved, a glimpse of it can be found [here](https://brilliant.org/wiki/cardano-method/). The roots of a quartic equation are even more involved. After many years of efforts, it was finally shown that for polynomial equations of degree 5 or higher, it is just not possible to write an algebraic formula for the solution! Note that this does not mean that these equations dont have any solutions, of course they do as we saw in the plots above, it only means that it is not possible to write out an algebraic expression for the roots in terms of the coefficients of the polynomial, using operations such as addition, multiplication, subtraction, division of the coefficients or their square roots, and in general, n-th roots.
+
+However, we can infer some interesting properties about the roots of polynomial equations, even for polynomials of higher degrees.
+
+### Sum and product of roots
+
+Lets do this with an example. Suppose we have a degree-2 polynomial, \\( f(x) = ax^2 + bx + c \\), and suppose we know that the roots of this polynomial are \\( r_1\\) and \\(r_2\\). The question is what can we say about the sum of the roots, and the product of the roots in terms of the coefficients.
+
+The way to go about this is as follows. Since, \\(r_1\\) and \\(r_2\\) are the roots of the quadratic, we can say the following:
+{{< katex >}}
+\begin{array}{rcl}
+ax^2 + bx + c & \equiv & a(x - r_1)(x - r_2) \\
+& \equiv & a(x^2 - (r_1 + r_2)x + r_1 r_2) \\
+& \equiv & ax^2 - a(r_1 + r_2)x + a r_1 r_2 \\ \\
+\therefore r_1 + r_2 & = & - \displaystyle \frac{b}{a} \\ \\
+r_1 r_2 & = & \displaystyle \frac{c}{a} \\
+\end{array}
+{{< /katex >}}
+
+Can you try it out for a degree-3 polynomial, \\( f(x) = ax^3 + bx^2 + cx + d \\), and suppose we know that the roots of this polynomial are \\( r_1\\), \\(r_2\\) and \\( r_3 \\). The question is what can we say about the sum of the roots, and the product of the roots in terms of the coefficients.
+
+Similar relationships can be written for higher degree polynomials as well, and these were first published by François Viète, a French mathematician who lived around the same time that Tartaglia and Cardano did, and are hence known as Vieta's formulas for roots.
+
+It is important to note that this equations above only serve to give us an *idea* of what the roots may be, but do not provide a formula or an expression for the roots. For e.g., you may note that the relationship between the sum and product of roots of a quadratic and its coefficients is indeed the underlying principle behind the factorization approach.
+
+### Rational root theorem
+
+Another technique that can aid in guessing the roots of a polynomial is the rational root theorem. 
+
+{{< theorem-block "Theorem" "Proof" >}}
+Given a polynomial with integer coefficients, i.e.,
+
+{{< katex >}} P(x) = a_n\cdot x^n + a_{n-1}\cdot x^{n-1} + \cdots + a_1\cdot x + a_0 {{< /katex >}}
+
+with \\( a_i \in \Z \\) and \\( a_0, a_n \neq 0 \\). If the polynomial has any rational roots of the form \\( r_i = \displaystyle \frac{p}{q} \\), where \\(p\\) and \\(q\\) are relatively prime, then \\(p\\) and \\(q\\) satisfies:
+
+- \\(p\\) is an integer factor of the constant term \\(a_0\\), and
+- \\(q\\) is an integer factor of the leading coefficient \\(a_n\\).
+
+
+<--->
+
+The proof starts as follows. If the polynomial has a rational root, say \\(\displaystyle \frac{p}{q} \\), then 
+
+{{< katex >}}
+\begin{array}{rcl}
+P(\frac{p}{q}) & = & 0 \\ \\
+\displaystyle a_n\cdot (\frac{p}{q})^n + a_{n-1}\cdot (\frac{p}{q})^{n-1} + \cdots + a_1\cdot (\frac{p}{q}) + a_0 & = & 0 
+\end{array}
+{{< /katex >}}
+
+A little bit of algebraic manipulations and some reasoning based on divisibility will get us the desired result.
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+.   
+Hence proved.
+
+{{< /theorem-block >}}
+
+Lets look at a practical example:
+
+**Q1.** Does the polynomial
+$$ p(x) = x^{3}-7x+6 $$
+have rational roots? If so, find them.
+
+{{< expand "Hint" >}}
+What the above theorem tells us is that, *if* this polynomial has any rational roots of the form \\( \displaystyle \frac{p}{q} \\), then \\( p\\) will divide the constant term \\(6\\), and \\(q\\) will divide the leading term \\(1\\). 
+{{< /expand >}}
+
+{{< expand "Solution" "..." >}}
+Since the divisors of \\(1\\) are only \\( \pm 1\\), those are the only values that \\(q\\) can take. And the values that \\(p\\) can take are \\( \pm 1, \pm 2, \pm 3, \pm 6\\). So, we need to check only 8 values to find all the rational roots of this polynomial. 
+
+Lets try \\( x = +1 \\)
+$$ p(1) = 1^3 - 7\cdot 1 + 6 = 0 $$
+Hence \\(+1\\) is a root of the polynomial.
+
+Try out the rest.
+{{< /expand >}}
+
+Lets look at another example
+
+**Q2.** Does the polynomial
+$$ p(x) = 2x^{3}+x-1 $$
+have rational roots? If so, find them.
+
+{{< expand "Hint" >}}
+If this polynomial has any rational roots, then the numerator of such a root has to divide \\(-1\\), and the denominator has to divide \\(2\\). The only possibilities are \\( \pm 1, \pm \frac{1}{2} \\). Try out these four values. 
+{{< /expand >}}
+
+{{< expand "Solution" "..." >}}
+It turns out that none of these are roots. Hence, the theorem lets us say that this polynomial does not have *any* rational roots.
+{{< /expand >}}
