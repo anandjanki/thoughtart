@@ -290,7 +290,7 @@ Hence proved.
 Lets look at a practical example:
 
 **Q1.** Does the polynomial
-$$ p(x) = x^{3}-7x+6 $$
+$$ P(x) = x^{3}-7x+6 $$
 have rational roots? If so, find them.
 
 {{< expand "Hint" >}}
@@ -301,7 +301,7 @@ What the above theorem tells us is that, *if* this polynomial has any rational r
 Since the divisors of \\(1\\) are only \\( \pm 1\\), those are the only values that \\(q\\) can take. And the values that \\(p\\) can take are \\( \pm 1, \pm 2, \pm 3, \pm 6\\). So, we need to check only 8 values to find all the rational roots of this polynomial. 
 
 Lets try \\( x = +1 \\)
-$$ p(1) = 1^3 - 7\cdot 1 + 6 = 0 $$
+$$ P(1) = 1^3 - 7\cdot 1 + 6 = 0 $$
 Hence \\(+1\\) is a root of the polynomial.
 
 Try out the rest.
