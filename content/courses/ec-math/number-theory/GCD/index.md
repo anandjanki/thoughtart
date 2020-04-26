@@ -757,7 +757,7 @@ We are now well on our way to unraveling how the simple approach to finding the 
 
 {{< theorem-block "Theorem" "Proof" >}}
 Given two integers \\(a\\) and \\(b\\), \\(\exists \\) unique integers \\(q\\) and \\(r\\), such that   
-\\( a = q\cdot r + b\\) and \\(0 \leq r < b\\)
+\\( a = q\cdot b + r\\) and \\(0 \leq r < b\\)
 <--->
 .  
 .  
