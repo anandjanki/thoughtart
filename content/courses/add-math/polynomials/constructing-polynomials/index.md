@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-**Note** - This topic is not in the syllabus of IGCSE Additional Mathematics curriculum. But is an interesting topic nevertheless that learners can explore if interested.
+**EC Note** - This topic is not in the syllabus of IGCSE Additional Mathematics curriculum, its an ExtraCurricular topic. But is an interesting topic nevertheless that learners can explore if interested. 
 
 While finding the roots of a polynomial is an involved activity, doing the opposite turns out to be fairly simple. If we are given the roots of a polynomial, can we construct the polynomial back from it?
 

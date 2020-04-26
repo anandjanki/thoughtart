@@ -266,7 +266,15 @@ Notice how the 3rd column in the multiplcation above adds up to \\( 20 x^2 \\) t
 
 ### Long division
 
-### Synthetic division
+The Long Division example on Wikipedia [here](https://en.wikipedia.org/wiki/Polynomial_long_division#Polynomial_long_division) is a good read.
+
+This video at Khan Academy [here](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly-div/x2ec2f6f830c9fb89:quad-div-by-linear/v/polynomial-division) is also good to watch.
+
+### Short division
+
+**EC Note** - This is not a topic in Add Math syllabus, this is an ExtraCurricular topic.
+
+People have come up with shorter methods to do division of polynomials. The regular synthetic division method can be understood from [here](https://en.wikipedia.org/wiki/Synthetic_division#Regular_synthetic_division). A similar method is what is called the polynomial short division, which can be found [here](https://en.wikipedia.org/wiki/Polynomial_long_division#Polynomial_short_division).
 
 ## Factors and Remainders
 
