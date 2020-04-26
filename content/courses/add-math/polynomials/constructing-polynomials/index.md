@@ -1,5 +1,5 @@
 ---
-title: "Constructing Polynomials"
+title: "Polynomial Construction"
 date: 2020-04-25T10:33:45+05:30
 draft: false
 weight: 2
