@@ -213,7 +213,7 @@ Thus,
 {{< /katex >}}
 
 Or written succinctly using the sigma notation:
-$$ (a + b)^m = \displaystyle \sum_{k = 0}^{m} {}^mC_k a^k b^{m - k} $$
+$$ (a + b)^m = \displaystyle \sum_{k = 0}^{m} {}^mC_k a^{m - k} b^k $$
 
 Lets go over a few examples using the binomial theorem.
 

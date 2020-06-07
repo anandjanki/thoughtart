@@ -129,7 +129,7 @@ This is the amazing world of fractals which is full of such beautiful patterns. 
 
 ### Sequence definition
 
-To begin exploring this wonderful world of sequences, and the patterns in the them, we being by laying down the definitions
+To begin exploring this wonderful world of sequences, and the patterns in them, we start by laying down the definitions
 
 {{< highlight-box "Defn 1:" "none" "" "part" >}}
 A **sequence** is simply a list of elements with a particular order.
