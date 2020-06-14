@@ -93,7 +93,7 @@ a^m\times a^n & = & \underbrace{a \times a \times a \times \cdots \times a}_{m\t
 \end{array}
 {{< /katex >}}
 
-{{< /highlight-box >}}
+{{< /theorem-block >}}
 
 We can ask again, how this helps us and we will see that this helps simplify calculations wonderfully.
 
