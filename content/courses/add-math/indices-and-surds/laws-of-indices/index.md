@@ -141,6 +141,8 @@ The key is to note that \\( 30 = 16 + 8 + 4 + 2 \\), and to find \\( 2^2\\), \\(
 \end{array}
 {{< /katex >}}
 
+Thus we see that using the First Law smartly has helped us go through this calculation in a short number of steps, just 7 instead of the 29 steps we would have had to. Can you guess what is the minimum number of multiplications needed for computing \\(2^{100}\\)?
+
 ## The Second Law
 
 The second law of indices can also be stated and proved easily 
@@ -167,8 +169,6 @@ a^m\div a^n & = & \displaystyle \frac{\overbrace{a \times \cdots \times a \times
 
 What this means is that to compute lets say the value of $$ \frac{2^{30}}{2^{20}} $$ it is not necessary to compute the values of the numerator and denominator separately and then do a long division like below: $$ \frac{2^{30}}{2^{20}} = \frac{1,073,741,824}{1,048,576} = 1,024 $$
 We can simply do the following: $$ \frac{2^{30}}{2^{20}} = 2^{30-20} = 2^{10} = 1,024 $$
-
-Next we understand the intutuin behind \\( a^{-m} \\)
 
 But this throws up an interesting question. Do we expect this law to work when \\(m\\) is equal to \\( n\\)? What if \\( m\\) is less than \\(n\\)? The point is that we only started with postiive values of the exponent, we havent defined what it means to have the exponent as \\(0\\), or as a negative integer. We can do that now.
 
@@ -298,7 +298,7 @@ It has a very simple reason. The area of a square is side x side, or side^2, so 
 
 An interesting question that people started asking long ago was the reverse of exponentiation in some ways. That is the following:
 
-If we are given the number \\(25\\), is there a number when repeatedly multiplied \\( 2\\) times would give \\(25\\). We know very well the answer to that question, that number is \\(5\\) because: $$ 5^2 = \underbrace{5\times 5}_{2 \text{ times}} = 25 $$. For now, we are only considering positive bases.
+If we are given the number \\(25\\), and want to ask if there is a number when repeatedly multiplied \\( 2\\) times would give \\(25\\). We know very well what the answer to that question is, that number is \\(5\\) because: $$ 5^2 = \underbrace{5\times 5}_{2 \text{ times}} = 25 $$ For now, we are only considering positive bases.
 
 Similarly, if we are given the number say \\(343\\), is there a number when repeatedly nultiplied \\(3\\) times would \\(343\\)? This may take a little effort, btu the answer to this question is \\(7\\), becuase: $$ 7^3 = \underbrace{7\times 7\times 7}_{3 \text{ times}} = 343 $$
 
@@ -360,5 +360,6 @@ Finally, when we started exploring exponents of negative numbers, a startling di
 
 * We know well that a negative number raised to the power of an even integer is a positive number, for eg, \\((-5)^2 = 25 \\). 
 * We also know well that a negative number raised to the power an odd number is a negative number, for eg, \\((-5)^3 = -125 \\).
-* Around the 15th century, Italian mathematician Cardano (who was working on solving cubic equations) had the courage to ask what would happen if we raise a negative number to a rational number such as \\( (-1)^\frac{1}{2}\\) and that opened up the fascinating new space of complex numbers.
+* Around the 15th century, Italian mathematician Cardano (who was working on solving cubic equations) had the courage to ask what would happen if we raise a negative number to a rational number such as \\( (-1)^\frac{1}{2}\\) and that opened up the most fascinating new space of complex numbers.
 
+For now, we will explore surds in the next session.

@@ -14,7 +14,7 @@ Most textbook chapters on Surds cover the regular problems using the rules that 
    * When two *similar* surds are added/subtracted, the result cab be simplified as follows: $$ \sqrt{5} + 3\sqrt{5} = 4\sqrt{5}$$ $$ \sqrt[3]{5} - 4\sqrt[3]{5} = -3\sqrt[3]{5}$$
  * Multiplication/Division of surds:
    * When an integer and a surd are multiplied/divided, there is no more simplifcation possible: $$2 \sqrt{3} \text{ , } \frac{\sqrt{5}}{4}$$
-   * When two surds of the same n-th root but different bases are multiplied/divided, the result can be simplified as follows: $$ \sqrt{2} \sqrt{3} = \sqrt{2.3} = \sqrt{6} $$ $$ \frac{\sqrt[3]{10}}{\sqrt[3]{5}} = \sqrt[3]{\frac{10}{5}} = \sqrt[3]{2}$$
+   * When two surds of the same n-th root but different bases are multiplied/divided, the result can be simplified as follows: $$ \sqrt{2} \sqrt{3} = \sqrt{2\cdot 3} = \sqrt{6} $$ $$ \frac{\sqrt[3]{10}}{\sqrt[3]{5}} = \sqrt[3]{\frac{10}{5}} = \sqrt[3]{2}$$
    * When two surds of different n-th root but same base are multiplied/divided, the result can be simplified using the laws of indices: $$ \sqrt[3]{2} \sqrt{2} = 2^{\frac{1}{3}}2^{\frac{1}{2}} = 2^{\frac{1}{3} + \frac{1}{2}} = 2^{\frac{5}{6}} = \sqrt[6]{2^5}$$ $$ \frac{\sqrt[3]{10}}{\sqrt[4]{10}} = \frac{10^{\frac{1}{3}}}{10^\frac{1}{4}} = 10^{\frac{1}{3} - \frac{1}{4}} = 10^{\frac{1}{12}} = \sqrt[12]{10}$$ 
    * When two *similar* surds are multiplied/divided, the result can be simplified as follows: $$ \sqrt{5} \cdot 3\sqrt{5} = 3\cdot{5} = 15$$ $$ \sqrt[3]{5} \div 4\sqrt[3]{5} = \frac{1}{4}$$
  * Rationalizing the denominator:
@@ -92,7 +92,7 @@ This particular infinitely nested surd is easy to unravel, and that is done as f
 
 $$ \underbrace{\sqrt{2 + {\sqrt{2 + \sqrt{2 + \sqrt{2 + \cdots}}}}}}_{x} $$
 
-\\(xx\) also appears inside the radical (!) as shown below:
+\\(x\\) also appears inside the radical (surprise!) as shown below:
 
 $$ \sqrt{2 + \underbrace{\sqrt{2 + \sqrt{2 + \sqrt{2 + \cdots}}}}_{x}} $$
 
@@ -144,9 +144,10 @@ Two quantities are considered to be in the golden ratio if their ratio is the sa
 {{< /katex >}}
 
 It turns out that the Golden Ratio occurs in some very interesting places in nature:
+
  * The ratio of the diagonal of a regular pentagon to its side happens to be in the Golden Ratio.
  * The ratio of successive numbers of the Fibbonacci sequence is approximately equal to \\(\varphi \\). 
- * What's more many flowers have *learnt* over the years (millions and millions of years of evolution) that the best way to organize the seeds on its surface is using the Golden Ratio!!
+ * What's more, many flowers have *learnt* over the years (millions and millions of years of evolution) that the best way to organize the seeds on its surface is using the Golden Ratio!!
 
 Here is a video that showcases why this is so:
 {{< youtube id="sj8Sg8qnjOg" >}}
