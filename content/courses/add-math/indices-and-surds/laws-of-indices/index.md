@@ -362,4 +362,48 @@ Finally, when we started exploring exponents of negative numbers, a startling di
 * We also know well that a negative number raised to the power an odd number is a negative number, for eg, \\((-5)^3 = -125 \\).
 * Around the 15th century, Italian mathematician Cardano (who was working on solving cubic equations) had the courage to ask what would happen if we raise a negative number to a rational number such as \\( (-1)^\frac{1}{2}\\) and that opened up the most fascinating new space of complex numbers.
 
-For now, we will explore surds in the next session.
+For now, we will look at a couple more laws and then go on to explore surds in the next session.
+
+## The Fourth Law
+
+In the first and the second law, we dealt with multiplication and division where the base was the same, and the exponents were different. We can ask the question, what happens if we multiply/divide two quantities where the bases are different but the exponents are the same. That's the next two laws and is fairly easy to see for integer exponents.
+
+{{< theorem-block "4th Law" "Proof" >}}
+$$a^m \cdot b^m = (a\cdot b)^m $$
+<--->
+
+The proof is fairly simple and follows from the definition, especially for integer values of \\(m\\):
+
+{{< katex >}}
+\begin{array}{rcl}
+a^m\cdot b^m & = & \underbrace{a \times a \times a \times \cdots \times a}_{m\text{ times}} \times \underbrace{b \times b \times b \times \cdots \times b}_{m\text{ times}} \\ \\
+& = & \underbrace{(a \times b) \times (a \times b) \times (a \times b) \times \cdots \times (a \times b)}_{m \text{ times}} \\ \\
+& = & (a\cdot b)^m
+\end{array}
+{{< /katex >}}
+
+{{< /theorem-block >}}
+
+## And a Fifth Law
+
+And finally, we end with a fifth law which can be derived from all of the above four laws instead of from first principles:
+
+{{< theorem-block "5th Law" "Proof" >}}
+$$\displaystyle \frac{a^m}{b^m} = (\displaystyle \frac{a}{b})^m $$
+<--->
+
+The proof is fairly simple and this time instead of doing it from the original definition we can derive this law from the previous laws that we have already learnt:
+
+{{< katex >}}
+\begin{array}{rclcl}
+\displaystyle \frac{a^m}{b^m} & = & a^m \times b^{-m} & & \text{Using negative exponent defn} \\ \\
+& = & a^m \times b^{-1\cdot m} \\ \\
+& = & a^m \times (b^{-1})^m & & \text{Using the 3rd Law} \\ \\
+& = & (a\times b^{-1})^m & & \text{Using the 4th Law} \\ \\
+& = & (\displaystyle \frac{a}{b})^m
+\end{array}
+{{< /katex >}}
+
+{{< /theorem-block >}}
+
+On to surds now.
