@@ -2,7 +2,7 @@
 title: "Surds"
 date: 2020-06-13T21:07:06+05:30
 draft: false
-weight: 3
+weight: 4
 ---
 
 ## Working with Surds

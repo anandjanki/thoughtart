@@ -339,30 +339,6 @@ This definition combined with the 3rd law gives us the following identities:
 $$ a^{\frac{m}{n}} = a^{m\frac{1}{n}} = (a^m)^{\frac{1}{n}} = \sqrt[n]{a^m} $$
 $$ a^{\frac{m}{n}} = a^{\frac{1}{n}m} = (a^{\frac{1}{n}})^m = (\sqrt[n]a)^m $$
 
-## Growing our number sense
-
-So far, we have considered the base to be a positive number, and have steadily expanded the definition of exponentiation from positive integer exponents to zero and negative integer exponents, and then to rational exponents as well. Apart from providing us the ability to handle very large numbers and very small numbers, the exponentiation operation also gave rise to new kinds of numbers.
-
-
-### Irrational numbers
-
-We know well the exponentiation of positive numbers, even just positive integers, to rational exponents gave rise to the discovery of new kind of numbers - the irrational numbers.
-
-The very first irrational number to be discovered was of course \\(\sqrt{2}\\). We also know how this came about - in trying to find the length of the hypotenuse a right-angled triangle with both sides as 1, one had to find the square root of \\(2\\).
-
-This discovery was made by a Greek mathematician Hippasus in 5th century BC, and legend has it that he was rewarded for this discovery by being thrown into the sea, simply becasue other mathematicians (they were really philosophers then) were scared of this new kind of number and did not know how to deal with it!
-
-In general, the nth roots of almost all numbers (all integers except the nth powers, and all rationals except the quotients of two nth powers) are irrational. For eg, \\(\sqrt[3]{5}\\), \\(\sqrt[5]{3}\\) or \\({\frac{2}{3}}^{\frac{3}{2}}\\) are all of this kind. And these are called surds.
-
-### Complex numbers
-
-Finally, when we started exploring exponents of negative numbers, a startling discovery opened up the entire new world of complex numbers. 
-
-* We know well that a negative number raised to the power of an even integer is a positive number, for eg, \\((-5)^2 = 25 \\). 
-* We also know well that a negative number raised to the power an odd number is a negative number, for eg, \\((-5)^3 = -125 \\).
-* Around the 15th century, Italian mathematician Cardano (who was working on solving cubic equations) had the courage to ask what would happen if we raise a negative number to a rational number such as \\( (-1)^\frac{1}{2}\\) and that opened up the most fascinating new space of complex numbers.
-
-For now, we will look at a couple more laws and then go on to explore surds in the next session.
 
 ## The Fourth Law
 
@@ -406,4 +382,4 @@ The proof is fairly simple and this time instead of doing it from the original d
 
 {{< /theorem-block >}}
 
-On to surds now.
+Now, lets put what we have learnt so far to some good use.
