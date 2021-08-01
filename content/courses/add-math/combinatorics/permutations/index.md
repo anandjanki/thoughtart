@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-We have had a glimpse of counting problems, and looked at two fundamental principles of counting - namely the product rule and the sum rule. We now take next steps in exploring more kinds of counting problems. This session on Permutations and the next one on Combinations are the basic kinds of counting problems commonly studied.
+We have had a glimpse of counting problems, and looked at two fundamental principles of counting - namely the product rule and the sum rule. Then we looked at the notion of factorials and how they come about naturally when we try to arrange n things in n places. We now take next steps in exploring more kinds of counting problems. This session on Permutations and the next one on Combinations are the basic kinds of counting problems commonly studied.
 
 ## Arranging r-items out of n
 
