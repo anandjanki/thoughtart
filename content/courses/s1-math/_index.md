@@ -1,7 +1,7 @@
 ---
 title: "S1 Math"
 date: 2021-08-01T09:23:35+05:30
-draft: true
+draft: false
 ---
 
 CIE (Cambridge International examination board), also called CAIE 12th grade Math [course 9709](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-mathematics-9709/)
