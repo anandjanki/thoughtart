@@ -12,7 +12,7 @@ This paper is part of the choices for candidates appearing for the A- or the AS-
 The topics covered as part of the Probability & Statistics 1 course and Paper 5 (what we shall call as S1 Math) are shown below:
 {{< figure src="images/S1-Math-topics.png" class="figs" title="" >}}
 
-The topics covered in the course are shown below, and links to each of the topics follows further below. 
+The topics covered in the course are described below, and links to each of the topics follows further below. 
 
 We will take an approach slightly different from what standard textbooks follow, in order to build a clear understanding of the subject. We will be organising our learning of Statistics in the following three parts:
 
