@@ -23,15 +23,15 @@ But if we were taking 2 student volunteers, then `A  B` and `B  A` are the same.
 
 Let's once recap the different kinds of counting problems we have looked at so far.
 
-**Q1.** There are 10 students in a class, and they are queuing up for lunch. How many different ways in which the queue can be formed?
+**Q1.** A combination lock has a 3-digit code, each digit can be set using one of the 10 digits from 0 - 10, digits can be repeated. How many different codes are possible?
 
-**Ans.** The number of ways in which the queue can be formed is \\( 10! \\) ways. That is 3,628,800 ways. 
+**Ans.** The number of ways in which a 3-digit code can be set is 10 x 10 x 10 = \\( 10^3 \\) or 1,000 ways.
 
 ---
 
-**Q2.** A combination lock has a 3-digit code, each digit can be set using one of the 10 digits from 0 - 10, digits can be repeated. How many different codes are possible?
+**Q2.** There are 10 students in a class, and they are queuing up for lunch. How many different ways in which the queue can be formed?
 
-**Ans.** The number of ways in which a 3-digit code can be set is 10 x 10 x 10 = \\( 10^3 \\) or 1,000 ways.
+**Ans.** The number of ways in which the queue can be formed is \\( 10! \\) ways. That is 3,628,800 ways. 
 
 ---
 
@@ -63,7 +63,7 @@ $$ {n\choose r} = \frac{n!}{r!\cdot (n - r)!} $$
 
 Suppose there are 10 kinds of fruits at a shop, how many ways are there to buy 4 kinds of fruits to make a fruit salad?
 
-The answer is simply 10C4, but lets also do the calculation below to arrive at the final answer:
+The answer is simply \\( {^{10}}C_4 \\), but lets also do the calculation below to arrive at the final answer:
 
 {{< katex >}}
 \begin{array}{rcl}
