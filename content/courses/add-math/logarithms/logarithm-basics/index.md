@@ -22,9 +22,23 @@ under the following conditions - \\( b > 0, b \neq 1 \text{, and } x > 0 \\)
 
 Lets understand this with a few examples. 
 
+Suppose I give you a number, say \\( 1,000 \\) and ask you what is the logarithm of this number. The first question you have to ask me back is what is the base or the fixed number? Suppose I tell you that the base is \\( 10 \\). Then how do you go about finding the logarithm of the given number 1000 with the base 10?
+
+To understand \\( \log_{10} (1,000) \\) better, lets go step by step from the definition:
+
+ * The given number is \\( x = 1,000 \\)
+ * The fixed number or the base is \\( b = 10 \\)
+ * We note that \\( b > 0, b \neq 1 \text{, and } x > 0 \\), so all conditions for the definition are satisfied.
+ * In order to find the logarithm of the given number \\( 1,000 \\) to the base \\( 10 \\), we have to find the *exponent* to which the base \\( 10 \\) must be raised to produce the given number \\( 1,000 \\).
+ * Now, we know that \\( 10^3 \\) is equal to \\( 1,000 \\).
+ * Hence the logarithm of the given number \\( 1,000 \\) to the fixed number or the base \\( 10 \\) is simply \\( 3 \\).
+
+Thus,
+$$ \log_{10} (1,000) = 3 $$
+
 ### log10 examples
 
-In the first set of examples below. we will use \\( 10\\) as the base in these examples so that it is easy to do the calculation without the need for a calculator.
+Lets find the logarithms of more numbers with the base as \\( 10\\), as it is easy to do the calculation without the need for a calculator.
 
 We know very well what the powers of \\( 10 \\) are as listed below:
 {{< katex >}}
@@ -42,27 +56,15 @@ We know very well what the powers of \\( 10 \\) are as listed below:
 The logarithm follows directly from these:
 {{< katex >}}
 \begin{array}{rclcrcl}
-10^1 & = & 10 & \iff & \log_{10} (10) & = & 1 \\ \\
-10^2 & = & 100 & \iff & \log_{10} (100) & = & 2 \\ \\
-10^3 & = & 1,000 & \iff & \log_{10} (1,000) & = & 3 \\ \\
-10^4 & = & 10,000 & \iff & \log_{10} (10,000) & = & 4 \\ \\
+10^1 & = & 10 & \therefore & \log_{10} (10) & = & 1 \\ \\
+10^2 & = & 100 & \therefore & \log_{10} (100) & = & 2 \\ \\
+10^3 & = & 1,000 & \therefore & \log_{10} (1,000) & = & 3 \\ \\
+10^4 & = & 10,000 & \therefore & \log_{10} (10,000) & = & 4 \\
 \ldots \\
-10^8 & = & 100,000,000 & \iff & \log_{10} (100,000,000) & = & 8 \\ \\
+10^8 & = & 100,000,000 & \therefore & \log_{10} (100,000,000) & = & 8 \\
 \ldots \\
 \end{array}
 {{< /katex >}}
-
-To understand \\( \log_{10} (1,000) = 3 \\) better, it is good to note the following points with respect to the definition:
-
- * The given number is \\( x = 1,000 \\)
- * The fixed number or the base is \\( b = 10 \\)
- * We note that \\( b > 0, b \neq 1 \text{, and } x > 0 \\), so all conditions for the definition are satisfied.
- * In order to find the logarithm of the given number \\( 1,000 \\) to the base \\( 10 \\), we have to find the *exponent* to which the base \\( 10 \\) must be raised to produce the given number \\( 1,000 \\).
- * Now, we know that \\( 10^3 \\) is equal to \\( 1,000 \\).
- * Hence the logarithm of the given number \\( 1,000 \\) to the base or the fixed number \\( 10 \\) is simply \\( 3 \\).
-
-Thus,
-$$ \log_{10} (1,000) = 3 $$
 
 ### log2 examples
 
@@ -104,7 +106,7 @@ As before, to understand \\( \log_{2} (256) = 8 \\) better, it is good to note t
 
 Thus,
 $$ \log_{2} 256 = 8 $$
-Note that we do not need to have the bracket when it is obvious what is the given number whose logartihm is being sought.
+Note that we do not need to have the bracket (around 256 above for example) when it is obvious what is the given number whose logartihm is being sought.
 
 ### log when x < b
 

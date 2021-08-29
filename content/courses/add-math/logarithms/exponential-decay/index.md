@@ -37,6 +37,7 @@ It turns out to be an exponential function again, but this time the exponent is 
 $$ f(x) = k^{-x} $$
 Note that this is the same as:
 $$ f(x) = \displaystyle \frac{1}{k^x} $$
+$$ f(x) = \displaystyle (k^{-1})^x $$
 
 Lets take a couple of values of \\( k\\), say \\( k = 2\\) and \\( k = 10 \\) and see how the graph of these functions look along with the corresponding positive exponential. This is depicted in the picture below.
 
@@ -45,6 +46,8 @@ Lets take a couple of values of \\( k\\), say \\( k = 2\\) and \\( k = 10 \\) an
 {{< figure src="images/positive-negative-exponentials.png" class="figs" title="" >}}
 <--->
 {{< /columns >}}
+
+Note that the function \\( 10^{-x} \\) above is the same as the function \\( \frac{1}{10^x} \\) or the function \\( (10^{-1})^x \\) which is \\( 0.1^x \\).
 
 We can tabulate the values of the function for different values of \\( x \\) and see the pattern:
 
@@ -89,7 +92,7 @@ We can now picture what Newton discovered about how hot liquids cool down. The g
 <--->
 {{< /columns >}}
 
-You can ignore the algebraic expression of the function and focus on the nature of its graph instead. What it says is that at time \\( t = 0\\), suppose the liquid has a temperature of \\( 100 \text{ \textdegree C} \\), and suppose the room temperature is \\( 25 \text{ \textdegree C} \\), then the temperature of the liquid will keep falling in an exponential manner and in about 7 or 8 minutes (we will assume that is the unit of time on the x-axis), the temperature of the liquid will have fallen to close to \\( 25 \text{ \textdegree C} \\). As time progresses, the temperature will tend \\( \to 25 \text{ \textdegree C} \\), but will never go below that value, assuming the room temperature remains constant at that value.
+You can ignore the algebraic notation for the function and focus on the nature of its graph instead. What it says is that at time \\( t = 0\\), suppose the liquid has a temperature of \\( 100 \text{ \textdegree C} \\), and suppose the room temperature is \\( 25 \text{ \textdegree C} \\), then the temperature of the liquid will keep falling in an exponential manner and in about 7 or 8 minutes (we will assume that is the unit of time on the x-axis), the temperature of the liquid will have fallen to close to \\( 25 \text{ \textdegree C} \\). As time progresses, the temperature will tend \\( \to 25 \text{ \textdegree C} \\), but will never go below that value, assuming the room temperature remains constant at that value.
 
 This may be one of Newton's lesser known discoveries, his laws of motion are of course way more path breaking in our understanding of how nature works. But all that it takes is relentlessly asking why, why, why, ... and not stopping until the answer is found.
 
